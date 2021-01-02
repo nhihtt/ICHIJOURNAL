@@ -1,0 +1,197 @@
+#container{
+    width: 100%;
+    height: 700px;
+    margin-top: 15px;
+}
+#cover{
+    height:auto;
+    width: 100%;
+}
+#content{
+    height: auto;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image{
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: cornsilk;
+}
+#main{ 
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+#main img{
+    width: 300px;
+    height: 300px;
+} 
+#slide{
+    height: 100px;
+    width: 100%;
+    background-color: darkgrey;
+    
+} 
+#description{
+    width: 58%;
+    height: auto;
+    float: left;
+    background-color: lightgrey;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    text-align:inherit;
+}
+#description h4{
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#description span{
+    font-size: 13px;
+}
+#gach{
+    width: 50px;
+    height: 1px;
+    margin-bottom: 15px;
+    border-bottom: solid 2px gray;
+}
+#price{
+    width: 150px;
+    height: 35px;
+    background-color: lightsalmon;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+#description label{
+    color: rgb(192, 3, 3);
+    margin-right: 30px;
+}
+#description #soluong{
+    width: 40px;
+}
+#btn{
+height: 35px; 
+width: 180px;
+background-color: rgba(219, 20, 20, 0.719);
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: none;
+color: white;
+margin-top: 25px;
+margin-bottom: 15px;
+}
+#sdt{
+    color: rgb(192, 4, 4);
+}
+
+#recommend{
+    height: 150px;
+    width: 100%;
+    background-color: darksalmon;
+    float: left;
+    margin-top: 30px;
+}
+#title{
+    width: 250px;
+    background-color: tomato;
+    float: left;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+#title h5{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+#list{
+    float: left;
+    width: 100%;
+    border-top: gray 1px solid;
+}
+#viewed{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(211, 209, 209);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#viewed H4{
+    text-align: center;
+    margin-top: 7px;
+}
+@media (max-width: 1100px){
+    #content{
+        height: auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main img{
+        width: 280px;
+        height: 280px;
+    } 
+    #image{
+        width: 50%;
+    }
+    #description{
+        width: 47%;
+    }
+}
+@media (max-width: 550px){
+    #content{
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main img{
+        width: 300px;
+        height: 300px;
+    } 
+    #image{
+        width: 100%;
+    }
+    #slide{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #description{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    #title{
+        width: 170px;
+        background-color: tomato;
+        float: left;
+        text-align: center;
+        height: 25px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    #title h5{
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-weight: bold;
+    }
+    #viewed H4{
+        text-align: center;
+        margin-top: 7px;
+        font-size: 15px;
+    }
+}

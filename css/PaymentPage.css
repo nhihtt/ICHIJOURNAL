@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    height: 700px;
+}
+#banner{
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-image: url(image/banner_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+#banner h2{
+    line-height: 50px;
+    color:tomato;
+}
+#banner #menu a{
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+#banner #menu a:hover{
+    text-decoration: underline;
+    color:rgb(216, 142, 6);
+}
+#main{
+    width: 100%;
+    height: 70%;
+    background-color: thistle;
+}
+#main h2{
+    margin-left: 15%;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+#main table{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border: tomato solid 1px;
+}
+#main table tr th{
+    height: 50px;
+}
+#main table tr th td{
+    height: 50px; border: black solid 1px;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 15%;
+    background-color: lightcoral;
+}
+#total{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-top: solid 1px grey;
+}
+#total h4{
+    padding-top: 15px;
+}
+#labell{
+    width: 70%;
+    text-align: right;
+}
+#money{
+    width: 30%;
+    text-align: center;
+}
+#btn{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 50px;
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+#btn1{
+    height: 40px; width: 150px;
+    background-color: lightgray;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+}
+#btn1_phone{
+    height: 40px; width: 100%;
+    display: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+}
+#btn2{
+    height: 40px; width: 150px;
+    background-color: rgba(205, 92, 92, 0.774);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: none;
+}
+#footer .giaohang{
+    width: 25%;
+    float: left;
+    color: white;
+    /* padding-top: 10px; */
+    box-sizing: border-box;
+    text-align: center;
+}
+#footer .giaohang img{
+    width: 50px;
+}
+#footer .giaohang:hover{
+    transform: scale(1.25);
+    transition: all ease-in-out 0.5s;
+}
+@media (max-width: 450px){
+    #footer .giaohang{
+        font-size: 10px;
+    }
+    #footer .giaohang img{
+        width: 35px;
+    }
+    #total h4{
+        text-align: left;
+    }
+    #btn1{
+        display: none;
+    }
+    #btn1_phone{
+        display: block;
+        margin-top: 10px;
+    }
+    #btn2{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #detail{
+        display: none;
+    }
+    #detail_phone{
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        border: tomato solid 1px;
+    }
+}
+

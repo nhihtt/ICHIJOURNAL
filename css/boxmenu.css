@@ -1,0 +1,27 @@
+.wrap{
+    width: 100%;
+}
+.boxmenu{
+    width: 80%;
+    display: block;
+    float: left;
+    text-align: center;
+    height: 120px;
+    background-color:rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box{
+    width: 16%;
+    float: left;  
+    border: 1px solid black;
+}
+.img_box{
+   width: 60px;
+   max-width: 100%;
+   height: auto; 
+}
+.img_box:hover{
+    transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}

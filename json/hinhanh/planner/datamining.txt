@@ -1,0 +1,35 @@
+Báo cáo bản word: 3
+	- Thông tin trong bản word đã gửi đã đủ thông tin để viết báo cáo, trừ phần demo
+Slide: Làm trước theo cấu trúc, bổ sung nội dung thêm sau : làm trước cả không kịp: 1
+Layout: 3
+	- Màn hình chính : 3 nút :Xử lý dữ liệu , Phân lớp dữ liệu, Dự đoán 
+	- Màn hình xử lý dữ liệu: 
+		+ Có textbox+ button tải file 
+		+ Một table view để hiển thị dữ liệu chưa xử lý
+		+ Một button "Xử lý"
+		+ Một table view để hiển thị dữ liệu đã xử lý
+		+ Một button Lưu file
+		+ Một label để hiển thị thông báo thành công
+		+Nút thoát
+	- Màn hình Phân lớp dữ liệu
+		+ Có textbox+ button tải file dữ liệu đã xử lý
+		+ Có 4 nút : Thuật toán ID3, Thuật toán CART, Thuật toán NaiveBayes, Thuật toán Randomforest
+		+ Khu vực kết quả
+			. 1 label + 1 textbox: Thời gian chạy thuật toán
+			. 1 label + 1 textbox: Độ chính xác của thuật toán
+			. 1 ô box chứa report
+			. Một button xem biểu đồ so sánh
+		+ Nút thoát
+	-Màn hình dự đoán: 
+		+ Khu vực chọn thuộc tính:
+			. label "age" + textbox
+			. label "job" + checkbox
+			. label "marital" + checkbox
+			. label "education" +checkbox
+			. label " default"+ checkbox
+			. label "housing" +checkbox
+			. label "loan" +checkbox
+			. label "campaign" +textbox
+		+ Button dự đoán khách hàng có vỡ nỡ ko
+		+ label Kết quả
+			

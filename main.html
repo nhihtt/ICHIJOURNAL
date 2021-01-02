@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICHI JOURNAL</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .wrap{
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        .header{
+            width: 95%;
+            float: left;
+            margin-right: 5%;
+        }
+        .slider{
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        .content{
+            width: 100%;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        .footer{
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- HEADER -->
+        <div class="header">
+            <iframe src="ICHIheader.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
+        </div>
+        <!-- SLIDER --> 
+        <div class="slider">
+            <iframe  src="slider.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+        </div>
+        <!-- BOX MENU -->
+        <!-- CONTENT SECTION -->
+        <div class="content">
+            <iframe  src="content.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <iframe src="ICHIfooter.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>

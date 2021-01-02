@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/content.css">
+    <script src="angular.min.js"></script>
+    <script>
+        var app= angular.module("contentApp", [])
+        app.controller('contentController', function ($scope, $http) {
+        $http({
+            method:"GET",
+            url:"/json/product.json"
+        }) .then(function mySucces(respone){
+            $scope.products=respone.data
+        })
+        })
+        app.filter('filterCategory',function(){
+            return function(input,category){
+                var output=[]
+                angular.forEach(input,function(item){
+                    if(item.category=category){
+                        output.push(item)
+                    }
+                })
+                return output
+            }
+        })
+        app.filter('filterSanPhamBanChay',function(){
+            return function(input){
+                var output=[]
+                angular.forEach(input,function(item){
+                    if(item.banchay==1){
+                        output.push(item)
+                    }
+                })
+                return output
+            }
+        })
+        
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="content" ng-app="contentApp" ng-controller="contentController" >
+            <div class="nhomSP">
+                <h2>SẢN PHẨM BÁN CHẠY</h2>
+                <div class="boxItem" ng-repeat="pd in products|filterSanPhamBanChay|limitTo:5">
+                    <a class="linkProductDetail" href="productDetail.html">
+                        <div class="imgBox">
+                            <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                        </div>
+                        <div class="nameProduct">{{pd.name}}</div><br>
+                        <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                    </a>      
+                </div>
+            </div>
+            <div class="nhomSP">
+                <h2>SỔ TAY</h2>
+                <div class="boxItem" ng-repeat="pd in products|filterCategory:'Sổ'|limitTo:5">
+                    <a linkProductDetail href="productDetail.html"></a>
+                    <div class="imgBox">
+                        <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                    </div>
+                    <div class="nameProduct">{{pd.name}}</div><br>
+                    <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

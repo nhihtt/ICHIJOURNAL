@@ -1,0 +1,538 @@
+[
+    {
+        "id": "1",
+        "name": "Sổ tay Dotted- Daisy",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/1.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Sổ tay Dotted- Dream xanh",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/2.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg",
+            "/json/hinhanh/sotay/4.jpg"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Sổ tay Typo Rock",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/3.jpg",
+        "Price":59000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/3.jpg",
+            "/json/hinhanh/sotay/4.jpg",
+            "/json/hinhanh/sotay/5.jpg"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Sổ tay Crabit",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/4.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/4.jpg",
+            "/json/hinhanh/sotay/5.jpg",
+            "/json/hinhanh/sotay/6.jpg"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Sổ tay Typo New York",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/5.jpg",
+        "Price":79000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/5.jpg",
+            "/json/hinhanh/sotay/6.jpg",
+            "/json/hinhanh/sotay/7.jpg"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Sổ tay Coffeein",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/6.jpg",
+        "Price":89000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Sổ tay Memory",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/7.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Sổ tay Lover",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/8.jpg",
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Sổ tay Limited",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/9.jpg",
+        "Price":79000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Sổ tay Latte",
+        "category":"Sổ",
+        "sub-category":"soDot",
+        "Picture":"/json/hinhanh/sotay/10.jpg",
+        "Price":49000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Sổ còng Dotted- Daisy",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/11.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Sổ còng Dotted- Dream xanh",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/12.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Sổ còng Typo Rock",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/13.jpg",
+        "Price":59000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Sổ còng Crabit",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/14.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Sổ còng Typo New York",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/15.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Sổ còng Coffeein",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/16.jpg",
+        "Price":69000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Sổ còng Memory",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/17.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Sổ còng Lover",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/18.jpg",
+        "Price":89000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Sổ còng Limited",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/19.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/1.jpg",
+            "/json/hinhanh/sotay/2.jpg",
+            "/json/hinhanh/sotay/3.jpg"
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Sổ còng Latte",
+        "category":"Sổ",
+        "sub-category":"soCong",
+        "Picture":"/json/hinhanh/sotay/20.jpg",
+        "Price":89000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/20.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Sổ ảnh Dotted- Daisy",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/21.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Sổ ảnh Dotted- Dream xanh",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/22.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Sổ ảnh Typo Rock",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/23.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Sổ ảnh Crabit",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/24.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Sổ ảnh Typo New York",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/25.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Sổ ảnh Coffeein",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/26.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Sổ ảnh Memory",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/27.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "28",
+        "name": "Sổ ảnh Lover",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/28.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "29",
+        "name": "Sổ ảnh Limited",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/29.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Sổ ảnh Latte",
+        "category":"Sổ",
+        "sub-category":"soAnh",
+        "Picture":"/json/hinhanh/sotay/30.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/21.jpg",
+            "/json/hinhanh/sotay/22.jpg",
+            "/json/hinhanh/sotay/23.jpg"
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Sổ Planner Dotted- Daisy",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/31.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Sổ Planner Dotted- Dream xanh",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/32.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Sổ Planner Typo Rock",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/33.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Sổ Planner Crabit",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/34.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Sổ Planner Typo New York",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/35.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Sổ Planner Coffeein",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/36.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Sổ Planner Memory",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/37.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Sổ Planner Lover",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/38.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    }
+    
+    
+
+    
+
+]
