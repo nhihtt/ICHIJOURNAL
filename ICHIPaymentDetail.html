@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/ICHIPaymentDetail.css">
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h3>NINEPOINT NOTEBUCK</h3>
+            <div id="thongtin">
+                <span id="bold">1. Thông tin nhận hàng</span>
+                <span id="login" class="cantrai">
+                    <a href="#"> <i class="fas fa-user-circle userIcon"></i>Đăng nhập </a>
+                </span> <br><br>
+                <label class="form-tt">Họ và tên*</label>
+                <br>
+                <input class="form-tt" id="hoten" type="text"><br>
+                <label class="form-tt" >Email</label><br>
+                <input class="form-tt" id="email" type="text"><br>
+                <label class="form-tt">Điện thoại*</label><br>
+                <input class="form-tt" type="text" id="dienthoai"><br>
+                <label class="form-tt">Địa chỉ</label><br>
+                <input class="form-tt" type="text" id="diachi"><br>
+                <label class="form-tt">Tỉnh/thành phố*</label><br>
+                <select class="form-tt" id="tinh">
+                    <option value="">TP Hồ Chí Minh</option>
+                    <option value="">Hà Nội</option>
+                    <option value="">Đà Nẵng</option>
+                    <option value="">Quảng Ninh</option>
+                    <option value="">Huế</option>
+                    <option value="">Lâm Đồng</option>
+                    <option value="">Đồng Nai</option>
+                    <option value="">Bình Duong</option>
+                    <option value="">Thủ Đức</option>
+                    <option value="">Gia Lai</option>
+                </select><br>
+                <label class="form-tt">Quận/Huyện*</label><br>
+                <select class="form-tt" id="quan">
+                    <option value="">Quận 1</option>
+                    <option value="">Quận 2</option>
+                    <option value="">Quận 3</option>
+                    <option value="">Quận 4</option>
+                    <option value="">Quận 5</option>
+                    <option value="">Quận 6</option>
+                    <option value="">Quận 7</option>
+                    <option value="">Quận 8</option>
+                    <option value="">Quận 9</option>
+                    <option value="">Quận 10</option>
+                </select><br>
+                <label class="form-tt" for="">Ghi chú</label>
+                <textarea class="form-tt" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div id="ship">
+                <h4>2. Vận chuyển</h4><br>
+                <div class="fee">
+                    <span>Giao hàng nhanh</span>
+                    <span class="cantrai">30.000đ</span>
+                </div><br>
+                <h4>Thanh toán</h4><br>
+                <div class="fee">
+                    <span>Thanh toán khi giao hàng (COD) </span>
+                </div>
+                <div class="btn" id="btn-res">
+                    <input type="button" value="Tiếp tục mua hàng">
+                    <input type="button" value="Đặt hàng">
+                </div>
+            </div>
+           <div id="chinhsach">
+            <a href="">Chính sách hoàn trả</a>
+            <a href="">Chính sách bảo mật</a>
+            <a href="">Điều khoản sử dụng</a><br>
+            <span>Ninepoint Notebuck cảm ơn bạn đã đặt hàng</span>
+           </div>
+        </div>
+        <div id="right">
+            <h3>NINEPOINT NOTEBUCK</h3>
+            <div id="tit-donhang">
+                <h4>Đơn hàng (X sản phẩm)</h4>
+            </div>
+            <div id="detail">
+                Đây là table detail hóa đơn
+            </div>
+            <div id="voucher">
+                <input type="text" id="enter" value="Mã giảm giá">
+                <input type="button" value="Áp dụng" id="btnApdung">
+            </div>
+            <div id="tamtinh">
+                <span>Tạm tính</span> <span class="cantrai">XXX.000đ</span> <br>
+                <span>Phí vận chuyển</span> <span class="cantrai">30.000đ</span> 
+            </div>
+            <div id="total">
+                <span>Tổng cộng</span> <span class="cantrai">X.XXX.000đ</span> 
+            </div>
+            <div class="btn" id="btn-lap">
+                <input type="button" value="Tiếp tục mua hàng">
+                <input type="button" value="Đặt hàng">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

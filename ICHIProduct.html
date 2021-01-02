@@ -3,203 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> PRODUCT </title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
-    <!-- favicon -->
-    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="/css/ICHIProduct.css">
+    <title>ICHI JOURNAL</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .wrap{
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        .header{
+            width: 95%;
+            float: left;
+            margin-right: 5%;
+        }
+        
+        .content{
+            width: 90%;
+            float: left;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 0;
+        }
+        .footer{
+            width: 100%;
+            float: left;
+            margin: 0;
+        }
+        iframe{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
     <script>
-        var dp=0
-        function Appear(vt){
-            var x=document.getElementById(vt)
-            var y=document.getElementById(angle_down)
-                if(dp==0){
-                x.style.display='block'
-                y.style.rotate(180*Math.PI/180)
-                dp=1
-            }
-                else{
-                x.style.display='none'
-                y.style.rotate(180*Math.PI/180)
-                dp=0
-            }   
-            }
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
     </script>
 </head>
 <body>
-    <div id="mainContainer">
-        <div class="boxmenu">
-            <div class="box">
-                <a href=""><img class="img_box" src="/css/image/untitled-1-01.jpg" alt=""></a>
-                <h3>Sổ tay</h3>
-            </div>
-            <div class="box">
-                <a href=""><img class="img_box" src="/css/image/untitled2-01.jpg" alt=""></a>
-                <h3>Vở viết</h3>
-            </div>
-            <div class="box">
-                <a href=""><img class="img_box" src="/css/image/untitled-3-01.png" alt=""></a>
-                <h3>Phụ kiện</h3>
-            </div>
-            <div class="box">
-                <a href=""><img class="img_box" src="/css/image/untitled-4-02.jpg" alt=""></a>
-                <h3>Combo</h3>
-            </div>
-            <div class="box">
-                <a href=""><img class="img_box" src="/css/image/untitled6-01.png" alt=""></a>
-                <h3>Planner 2021</h3>
-            </div>  
+    <div class="wrap">
+        <!-- HEADER -->
+        <div class="header">
+            <iframe src="ICHIheader.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
         </div>
-        <div class="mainLeft">
-            <div class="category">
-                <div class="category_title">
-                    <div class="text_title">DANH MỤC</div>
-                    <div class="category_box">
-                        <div class="category_boxitem">
-                            <div class="item">
-                                <div class="itemlink">
-                                    <div class="link">
-                                        <a class="category_link" href="">Sổ tay</a>
-                                    </div>
-                                    <div class="icon">
-                                        <a href="#" id="1" onclick="Appear('vt1')"><i class="fas fa-angle-down"></i></a>
-                                    </div>
-                                </div>
-                                <div class="drop_menu" id="vt1">
-                                    <ul class="dropdown_menu_ul">
-                                        <li class="drop-content"> <a href="#">Sổ kẻ ngang - LINED</a></li>
-                                        <li class="drop-content"><a href="#">Sổ chấm - DOTED</a></li>
-                                        <li class="drop-content" ><a href="#">Sổ trơn - PLAIN</a></li>
-                                        <li class="drop-content"><a href="#">Sổ ô vuông - GRID</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="itemlink">
-                                    <div class="link">
-                                        <a class="category_link" href="">Vở viết</a>
-                                    </div>
-                                    <div class="icon">
-                                        <a href="#" id="2" onclick="Appear('vt2')"><i id="angle_down" class="fas fa-angle-down"></i></a>
-                                    </div>
-                                </div>
-                                <div class="drop_menu" id="vt2">
-                                    <ul class="dropdown_menu_ul">
-                                        <li class="drop-content"> <a href="#">Vở chấm - DOT GRID</a></li>
-                                        <li class="drop-content"><a href="#">Vở ô vuông - GRID</a></li>
-                                        <li class="drop-content" ><a href="#">Vở vẽ - SKETCHPAD</a></li>
-                                        <li class="drop-content"><a href="#">Sổ ô vuông - GRID</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="itemlink">
-                                    <div class="link">
-                                        <a class="category_link" href="">Phụ kiện</a>
-                                    </div>
-                                    <div class="icon">
-                                        <a href="#" id="3" onclick="Appear('vt3')"><i id="angle_down" class="fas fa-angle-down"></i></a>
-                                    </div>
-                                </div>
-                                <div class="drop_menu" id="vt3">
-                                    <ul class="dropdown_menu_ul">
-                                        <li class="drop-content"> <a href="#">Bút </a></li>
-                                        <li class="drop-content"><a href="#">Sticker</a></li>
-                                        <li class="drop-content" ><a href="#">Giấy ghi chú - Notepad</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="itemlink">
-                                    <div class="link">
-                                        <a class="category_link" href="">Gift box</a>
-                                    </div>
-                                    <div class="icon">
-                                        <a href="#" id="4" onclick="Appear('vt4')"><i id="angle_down" class="fas fa-angle-down"></i></a>
-                                    </div>
-                                </div>
-                                <div class="drop_menu" id="vt4">
-                                    <ul class="dropdown_menu_ul">
-                                        <li class="drop-content"> <a href="#">Happy Box</a></li>
-                                        <li class="drop-content"><a href="#">Ribbon Box</a></li>
-                                        <li class="drop-content" ><a href="#">Christmas Box</a></li>  
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="itemlink">
-                                    <div class="link">
-                                        <a class="category_link" href="">Planner 2021</a>
-                                    </div>
-                                    <div class="icon">
-                                        <a href="#" id="5" ></a>
-                                    </div>
-                                </div>
-
-                                <!-- <div class="drop_menu" id="vt2">
-                                    <ul class="dropdown_menu_ul">
-                                        <li class="drop-content"> <a href="#">Vở chấm - DOT GRID</a></li>
-                                        <li class="drop-content"><a href="#">Vở ô vuông - GRID</a></li>
-                                        <li class="drop-content" ><a href="#">Vở vẽ - SKETCHPAD</a></li>
-                                        <li class="drop-content"><a href="#">Sổ ô vuông - GRID</a></li>
-                                    </ul>
-                                </div> -->
-
-                            </div>
-                            
-                            
-                            
-                        </div>
-                    </div>
-                         
-            <div class="filter">
-                <div class="text_title">KHOẢNG GIÁ</div>
-                <div class="filter_box">
-                    <div class="filter_boxitem">
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá dưới 10.000đ</input>
-                            <span class="checkmark"></span>
-                        </div>
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá từ 10.000đ - 50.000đ</input>
-                            <span class="checkmark"></span>
-                            
-                        </div>
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá từ 50.000đ - 100.000đ</input>
-                            <span class="checkmark"></span>
-                        </div>
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá từ 100.000đ - 200.000đ</input>
-                            <span class="checkmark"></span>
-                        </div>
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá từ 200.000đ - 500.000đ </input>
-                            <span class="checkmark"></span>
-                        </div>
-                        <div class="filter_item">
-                            <input class="filter_input" type="checkbox">Giá trên 500.000đ </input>
-                            <span class="checkmark"></span>
-                        </div>
-                   
-                    </div>
-                </div>
+        <!-- CONTENT SECTION -->
+        <div class="content">
+            <iframe  src="ICHIProduct_Content.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
         </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <iframe src="ICHIfooter.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
         </div>
-        </div>
-        </div>
-        <div class="mainRight">
-            <div class="mainRight_collection"></div>
-            <div class="mainRight_openfilter">
-                <i class="fas fa-align-right"></i>
-            </div>
-        </div>
-
     </div>
+    
 </body>
-<script src="content.js"></script>
 </html>

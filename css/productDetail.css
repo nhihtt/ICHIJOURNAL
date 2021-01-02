@@ -1,6 +1,5 @@
 #container{
     width: 100%;
-    height: 700px;
     margin-top: 15px;
 }
 #cover{
@@ -9,43 +8,34 @@
 }
 #content{
     height: auto;
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 #image{
-    height: 400px;
-    width: 40%;
+    height: 500px;
+    width: 45%;
     float: left;
-    margin-left: auto; 
-    margin-right: auto;
-    background-color: cornsilk;
+    margin-right: 5%; 
 }
 #main{ 
     width: 100%;
-    height: auto;
-    background-color: white;
+    height: 350px;
     text-align: center;
 }
 #main img{
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 100%;
 } 
-#slide{
-    height: 100px;
-    width: 100%;
-    background-color: darkgrey;
-    
-} 
+
 #description{
-    width: 58%;
-    height: auto;
+    width: 45%;
+    height: 480px;
     float: left;
     background-color: lightgrey;
-    margin-left: 10px;
     box-sizing: border-box;
-    padding-left: 15px;
     text-align:inherit;
+    padding-left: 2%;
 }
 #description h4{
     text-decoration: none;
@@ -94,9 +84,9 @@ margin-bottom: 15px;
 }
 
 #recommend{
-    height: 150px;
+    height: 200px;
     width: 100%;
-    background-color: darksalmon;
+    background-color:rgb(227, 231, 231);
     float: left;
     margin-top: 30px;
 }
@@ -127,10 +117,45 @@ margin-bottom: 15px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
-#viewed H4{
-    text-align: center;
-    margin-top: 7px;
+/* START CSS SLIDE */
+#slide{
+    height: 150px;
+    width: 100%;
+    float: left;
+} 
+#slide .boxPhoto{
+    width: 25%;
+    background-color: aquamarine;
 }
+/* END CSS SLIDE */
+/* START CSS RECOMMEND */
+.boxItem{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+.boxItem .imgBox{
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    height: 270px;
+    border-radius: 10px;
+}
+.boxItem .imgBox .imgProduct{
+
+    width: 100%;
+    height: 100%;
+}
+.boxItem .nameProduct{
+    font-size: 14px;
+}
+.boxItem .priceProduct{
+    font-size: 16px;
+    color: red;
+}
+.boxItem .linkProductDetail{
+    text-decoration: none;
+}
+/* END CSS RECOMMEND */
 @media (max-width: 1100px){
     #content{
         height: auto;

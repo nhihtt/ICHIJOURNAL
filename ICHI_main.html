@@ -19,9 +19,9 @@
             margin-right: 5%;
         }
         .slider{
+            margin: 0;
             width: 100%;
             float: left;
-            margin: 0;
         }
         .content{
             width: 100%;
@@ -39,6 +39,26 @@
             height: 100%;
             margin: 0;
         }
+        @media(max-width: 2000px)
+        {
+            .slider{
+                height: 30em;
+            }
+
+        }
+        @media(max-width: 1090px){
+            .slider{
+                height: 18em;
+            }
+
+        }
+        @media(max-width: 500px)
+        {
+            .slider{
+                height: 12em;
+            }
+
+        }
     </style>
     <script>
         function resizeIframe(obj) {
@@ -54,12 +74,12 @@
         </div>
         <!-- SLIDER --> 
         <div class="slider">
-            <iframe  src="slider.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+            <iframe  src="ICHISlider.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
         </div>
         <!-- BOX MENU -->
         <!-- CONTENT SECTION -->
         <div class="content">
-            <iframe  src="content.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+            <iframe  src="ICHI_main_content.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
         </div>
         <!-- FOOTER -->
         <div class="footer">

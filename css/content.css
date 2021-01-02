@@ -16,6 +16,12 @@ h2{
     width: 100%;
     float: left;
 }
+.content .banner{
+    width: 100%;
+}
+.content .banner img{
+    width: 100%;
+}
 .boxItem{
     width: 20%;
     height: 380px;

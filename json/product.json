@@ -285,7 +285,7 @@
         "sub-category":"soAnh",
         "Picture":"/json/hinhanh/sotay/21.jpg",
         "Price":99000,
-        "banchay":1,
+        "banchay":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -299,7 +299,7 @@
         "sub-category":"soAnh",
         "Picture":"/json/hinhanh/sotay/22.jpg",
         "Price":99000,
-        "banchay":1,
+        "banchay":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -341,7 +341,7 @@
         "sub-category":"soAnh",
         "Picture":"/json/hinhanh/sotay/25.jpg",
         "Price":99000,
-        "banchay":1,
+        "banchay":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -369,7 +369,7 @@
         "sub-category":"soAnh",
         "Picture":"/json/hinhanh/sotay/27.jpg",
         "Price":99000,
-        "banchay":1,
+        "banchay":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -495,7 +495,7 @@
         "sub-category":"soPlanner",
         "Picture":"/json/hinhanh/sotay/36.jpg",
         "Price":99000,
-        "banchay":1,
+        "banchay":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -529,7 +529,778 @@
             "/json/hinhanh/sotay/32.jpg",
             "/json/hinhanh/sotay/33.jpg"
         ]
+    },
+    {
+        "id": "39",
+        "name": "Sổ Planner Limited",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/39.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Sổ Planner Latte",
+        "category":"Sổ",
+        "sub-category":"soPlanner",
+        "Picture":"/json/hinhanh/sotay/39.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Vở Ô vuông Dotted- Daisy",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/41.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/31.jpg",
+            "/json/hinhanh/sotay/32.jpg",
+            "/json/hinhanh/sotay/33.jpg"
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Vở Ô vuông Dotted- Daisy",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/41.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Vở Vuông Dotted- Dream xanh",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/42.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Vở Vuông Typo Rock",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/43.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Vở Vuông Crabit",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/44.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Vở Vuông Typo New York",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/45.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Vở Vuông Coffeein",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/46.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Vở Vuông Memory",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/47.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Vở Vuông Lover",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/48.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Vở Vuông Limited",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/49.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Vở Vuông Latte",
+        "category":"Vở",
+        "sub-category":"voOVuong",
+        "Picture":"/json/hinhanh/sotay/50.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/41.jpg",
+            "/json/hinhanh/sotay/42.jpg",
+            "/json/hinhanh/sotay/43.jpg"
+        ]
+    },
+    {
+        "id": "51",
+        "name": "Vở Vuông Latte",
+        "category":"Vở",
+        "sub-category":"voOLy",
+        "Picture":"/json/hinhanh/sotay/51.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/51.jpg",
+            "/json/hinhanh/sotay/52.jpg",
+            "/json/hinhanh/sotay/53.jpg"
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Vở Ô Ly Dotted- Daisy",
+        "category":"Vở",
+        "sub-category":"voOLy",
+        "Picture":"/json/hinhanh/sotay/52.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/51.jpg",
+            "/json/hinhanh/sotay/52.jpg",
+            "/json/hinhanh/sotay/53.jpg"
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Vở Ly Typo Rock",
+        "category":"Vở",
+        "sub-category":"voOLy",
+        "Picture":"/json/hinhanh/sotay/53.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/51.jpg",
+            "/json/hinhanh/sotay/52.jpg",
+            "/json/hinhanh/sotay/53.jpg"
+        ]
+    },
+    {
+        "id": "54",
+        "name": "Vở Ly Crabit",
+        "category":"Vở",
+        "sub-category":"voOLy",
+        "Picture":"/json/hinhanh/sotay/54.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/sotay/51.jpg",
+            "/json/hinhanh/sotay/52.jpg",
+            "/json/hinhanh/sotay/53.jpg"
+        ]
+    },
+    {
+        "id": "55",
+        "name": "8 Tag sổ còng Crabit",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/1.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/1.jpg",
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg"
+        ]
+    },
+    {
+        "id": "56",
+        "name": "Washitape",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/2.png",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "57",
+        "name": "Daliy notepad",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/3.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "58",
+        "name": "Note to Myself",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/4.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Project Planner Notepad",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/5.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "60",
+        "name": "Weekly Plan Note",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/6.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "61",
+        "name": "Message Note",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/7.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/6.jpg",
+            "/json/hinhanh/phukien/7.jpg",
+            "/json/hinhanh/phukien/8.jpg"
+        ]
+    },
+    {
+        "id": "62",
+        "name": "Grid Note",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/8.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/2.jpg",
+            "/json/hinhanh/phukien/3.jpg",
+            "/json/hinhanh/phukien/4.jpg"
+        ]
+    },
+    {
+        "id": "63",
+        "name": "Goal TRacker Note",
+        "category":"PhuKien",
+        "sub-category":"PhuKienTrangTri",
+        "Picture":"/json/hinhanh/phukien/9.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/10.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "64",
+        "name": "Pentel Fude Brush Marke",
+        "category":"PhuKien",
+        "sub-category":"But",
+        "Picture":"/json/hinhanh/phukien/11.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/phukien/11.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "65",
+        "name": "Bút Tombow Dual Brush",
+        "category":"PhuKien",
+        "sub-category":"But",
+        "Picture":"/json/hinhanh/phukien/12.jpg",
+        "Price":99000,
+        "banchay":1,
+        "photos": [
+            "/json/hinhanh/phukien/11.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "66",
+        "name": "Bút viết Calligraphy",
+        "category":"PhuKien",
+        "sub-category":"But",
+        "Picture":"/json/hinhanh/phukien/13.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/11.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "67",
+        "name": "Bút highlight Zabe",
+        "category":"PhuKien",
+        "sub-category":"But",
+        "Picture":"/json/hinhanh/phukien/14.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/11.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "68",
+        "name": "Bút viết vở Studygram",
+        "category":"PhuKien",
+        "sub-category":"But",
+        "Picture":"/json/hinhanh/phukien/15.jpg",
+        "Price":99000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/phukien/11.jpg",
+            "/json/hinhanh/phukien/13.jpg",
+            "/json/hinhanh/phukien/14.jpg"
+        ]
+    },
+    {
+        "id": "69",
+        "name": "Sutdygram kit",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/1.jpg",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "70",
+        "name": "Box vở bí mật",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/2.png",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "71",
+        "name": "Combo vở kẻ ngang Navi",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/3.jpg",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "72",
+        "name": "Combo vở igen",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/4.jpg",
+        "Price":189000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "73",
+        "name": "Combo vở Lessismore",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/5.jpg",
+        "Price":179000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/4.jpg",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "74",
+        "name": "Combo vở YoudoYou",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/6.jpg",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Combo sổ Dotted",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/7.png",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "76",
+        "name": "Combo vở YoutobeYou",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/8.jpg",
+        "Price":189000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "77",
+        "name": "Combo Goal TRacker",
+        "category":"combo",
+        "sub-category":"combo",
+        "Picture":"/json/hinhanh/combo/9.jpg",
+        "Price":199000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/combo/1.jpg",
+            "/json/hinhanh/combo/2.png",
+            "/json/hinhanh/combo/3.jpg"
+        ]
+    },
+    {
+        "id": "78",
+        "name": "Combo Sutdygram kit",
+        "category":"gift",
+        "sub-category":"christmas",
+        "Picture":"/json/hinhanh/gift/1.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "79",
+        "name": "Combo Secret",
+        "category":"gift",
+        "sub-category":"christmas",
+        "Picture":"/json/hinhanh/gift/2.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "80",
+        "name": "Combo Navi",
+        "category":"gift",
+        "sub-category":"christmas",
+        "Picture":"/json/hinhanh/gift/3.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "81",
+        "name": "Combo igen",
+        "category":"gift",
+        "sub-category":"christmas",
+        "Picture":"/json/hinhanh/gift/4.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "82",
+        "name": "Combo Sutdygram kit",
+        "category":"gift",
+        "sub-category":"happy",
+        "Picture":"/json/hinhanh/gift/6.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "83",
+        "name": "Combo Secret",
+        "category":"gift",
+        "sub-category":"happy",
+        "Picture":"/json/hinhanh/gift/7.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Combo Navi",
+        "category":"gift",
+        "sub-category":"happy",
+        "Picture":"/json/hinhanh/gift/8.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Combo Sutdygram kit",
+        "category":"gift",
+        "sub-category":"ribbon",
+        "Picture":"/json/hinhanh/gift/11.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "85",
+        "name": "Combo Secret",
+        "category":"gift",
+        "sub-category":"ribbon",
+        "Picture":"/json/hinhanh/gift/12.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg",
+            "/json/hinhanh/gift/1.jpg"
+        ]
+    },
+    {
+        "id": "86",
+        "name": "Planner Sutdygram kit",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/1.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
+    },
+    {
+        "id": "87",
+        "name": "Planner Secret",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/2.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
+    },
+    {
+        "id": "88",
+        "name": "Planner Navi",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/3.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
+    },
+    {
+        "id": "89",
+        "name": "Planner igen",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/4.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
+    },
+    {
+        "id": "90",
+        "name": "Planner YoudoYou",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/5.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
+    },
+    {
+        "id": "91",
+        "name": "Planner Dotted",
+        "category":"planner",
+        "sub-category":"planner",
+        "Picture":"/json/hinhanh/planner/6.jpg",
+        "Price":219000,
+        "banchay":0,
+        "photos": [
+            "/json/hinhanh/planner/2.jpg",
+            "/json/hinhanh/planner/3.jpg",
+            "/json/hinhanh/planner/4.jpg"
+        ]
     }
+
     
     
 
