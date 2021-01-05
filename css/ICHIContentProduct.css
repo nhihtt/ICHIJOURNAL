@@ -57,6 +57,7 @@ body
     background-color: #fff;
     z-index: 2000;
     transform: translateX(-100%);
+    display: block;
     
 }
 .iconclose{
@@ -254,7 +255,7 @@ input{
     width: 320px;
     max-width: 100%;
     background-color: #fff;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
     opacity: 0;
     display:block;
     transition: all linear 0.3s;
@@ -580,7 +581,7 @@ input{
        height: 70px;
    }
    .menu_mobile{
-    position: fixed;
+    /* position: fixed;
     top:0;
     bottom:0;
     left: 0;
@@ -590,7 +591,8 @@ input{
     max-width: 100%;
     background-color: #fff;
     z-index: 2000;
-    transform: translateX(-100%);
+    transform: translateX(-100%); */
+    display: block;
     
 }
    #iconbar{
@@ -628,9 +630,7 @@ input{
   .link a{
       font-size: 10px;
   }
-  .link{
-
-  }
+ 
 } 
 
 @keyframes fadeIn {
