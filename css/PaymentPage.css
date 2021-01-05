@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
+/* START CSS CONTAINER */
 #container{
     width: 100%;
-    height: 700px;
+    height: 100vh;
 }
 #banner{
     text-align: center;
@@ -15,7 +16,27 @@
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+    box-sizing: border-box;
 }
+#main{
+    width: 100%;
+    height: 70%;
+    background-color: thistle;
+    box-sizing: border-box;
+}
+
+#footer{
+    width: 100%;
+    height: 15%;
+    background-color: lightcoral;
+    float: left;
+    box-sizing: border-box;
+}
+/* END CSS CONTAINER */
+
+
+
+/* START CSS BANNER */
 #banner h2{
     line-height: 50px;
     color:tomato;
@@ -29,15 +50,22 @@
     text-decoration: underline;
     color:rgb(216, 142, 6);
 }
-#main{
-    width: 100%;
-    height: 70%;
-    background-color: thistle;
-}
+/* END CSS BANNER */
+
+
+/* START CSS MAIN */
 #main h2{
     margin-left: 15%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding-top: 15px;
+}
+#main #detail_phone {
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+    display: none;
+    margin-bottom: 15px;
 }
 #main table{
     margin-left: 10%;
@@ -45,81 +73,102 @@
     width: 80%;
     border: tomato solid 1px;
 }
-#main table tr th{
-    height: 50px;
-}
-#main table tr th td{
-    height: 50px; border: black solid 1px;
-    text-align: center;
-}
-#main #detail_phone{
-    display: none;
-}
-
-#footer{
-    width: 100%;
-    height: 15%;
-    background-color: lightcoral;
-}
-#total{
+#main #total{
     margin-top: 15px;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
     border-top: solid 1px grey;
 }
-#total h4{
-    padding-top: 15px;
-}
-#labell{
-    width: 70%;
-    text-align: right;
-}
-#money{
-    width: 30%;
-    text-align: center;
-}
-#btn{
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+#main #btn{
+    margin: 10px 10% 0px 10%;
     padding-left: 50px;
     width: 80%;
     float: right;
     text-align: right;
 }
-#btn1{
-    height: 40px; width: 150px;
-    background-color: lightgray;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: none;
-}
-#btn1_phone{
-    height: 40px; width: 100%;
-    display: none;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: none;
-    background-color: lightgray;
-}
-#btn2{
-    height: 40px; width: 150px;
-    background-color: rgba(205, 92, 92, 0.774);
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border: none;
-}
+    /* START DETAIL_PHONE */
+    .item{
+        height: 100px;
+        width: 100%;
+        float: left;
+        background-color: lightblue;
+    }
+    .item .hinh{
+        width: 30%;
+        float: left;
+    }
+    .item .mieuta{
+        width: 40%;
+        float: left;
+    }
+    .item .soluong{
+        width: 30%;
+        float: left;
+    }
+       /* END DETAIL_PHONE */
+
+       /* START TABLE (DETAIL FOR LAPTOP) */
+    #main table tr th{
+    height: 50px;
+    }
+    #main table tr th td{
+    height: 50px; border: black solid 1px;
+    text-align: center;
+    }
+       /* END TABLE (DETAIL FOR LAPTOP) */
+
+        /* START TOTAL CSS */
+        #main #total h4{
+            padding-top: 15px;
+        }
+        #total #labell{
+            width: 70%;
+            text-align: right;
+        }
+        #total #money{
+            width: 30%;
+            text-align: center;
+        }
+        /* END TOTAL CSS */
+
+        /* START BTN CSS */
+        #btn #btn1{
+            height: 40px; width: 150px;
+            background-color: lightgray;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: none;
+        }
+        #btn #btn1_phone{
+            height: 40px; width: 100%;
+            display: none;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: none;
+            background-color: lightgray;
+        }
+        #btn #btn2{
+            height: 40px; width: 150px;
+            background-color: rgba(205, 92, 92, 0.774);
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: none;
+        }
+        /* END BTN CSS */
+/* END CSS MAIN*/
+
+/* START CSS FOOTER */
 #footer .giaohang{
     width: 25%;
     float: left;
     color: white;
-    /* padding-top: 10px; */
     box-sizing: border-box;
     text-align: center;
+    padding-top: 5%;
 }
 #footer .giaohang img{
     width: 50px;
@@ -128,6 +177,9 @@
     transform: scale(1.25);
     transition: all ease-in-out 0.5s;
 }
+/* END CSS FOOTER*/
+
+/* START RESPONSIVE */
 @media (max-width: 450px){
     #footer .giaohang{
         font-size: 10px;
@@ -135,29 +187,45 @@
     #footer .giaohang img{
         width: 35px;
     }
-    #total h4{
+    #main #total h4{
         text-align: left;
     }
-    #btn1{
+    
+    #btn #btn1{
         display: none;
     }
-    #btn1_phone{
+    #btn #btn1_phone{
         display: block;
         margin-top: 10px;
     }
-    #btn2{
+    #btn #btn2{
         width: 100%;
         margin-top: 10px;
     }
-    #detail{
+    #main #detail{
         display: none;
     }
-    #detail_phone{
+    #main #detail_phone{
         display: block;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
+        width: 100%;
         border: tomato solid 1px;
     }
 }
+@media (max-width: 390px){
+    #main #detail_phone{
+        display: block;
+        width: 100%;
+        border: tomato solid 1px;
+        height: 220px;
+    }
+}
+@media (max-width: 330px){
+    #main #detail_phone{
+        display: block;
+        width: 100%;
+        border: tomato solid 1px;
+        height: 190px;
+    }
+}
+
 
