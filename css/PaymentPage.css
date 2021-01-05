@@ -99,7 +99,7 @@ iframe{
 }
     /* START DETAIL_PHONE */
     .item{
-        height: 150px;
+        height: 130px;
         width: 80%;
         float: left;
         border-bottom: 1px solid var(--mainColor2);
@@ -168,25 +168,16 @@ iframe{
         /* START BTN CSS */
         #btn #btn1{
             height: 40px; width: 150px;
-            background-color: lightgray;
+            background-color: var(--mainColor3);
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
             border: none;
             margin-right: 30px;
         }
-        #btn #btn1_phone{
-            height: 40px; width: 100%;
-            display: none;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            border: none;
-            background-color: lightgray;
-        }
         #btn #btn2{
             height: 40px; width: 150px;
-            background-color: rgba(205, 92, 92, 0.774);
+            background-color:var(--mainColor1);
             border-radius: 5px;
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -234,16 +225,55 @@ iframe{
     #footer .giaohang img{
         width: 35px;
     }
+    .item{
+        height: 130px;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .item .hinh{
+        width: 20%;
+        margin-right: 5%;
+        float: left;
+    }
+    .item .hinh img{
+        padding-top: 5px;
+        padding-left: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .item .mieuta{
+        width: 40%;
+        float: left;
+        padding-top: 40px;
+    }
+    .item .mieuta .tenSP{
+        color: var(--mainColor2);
+        font-size: 14px;
+    }
+    .item .mieuta .giaSP{
+        color: var(--mainColor1);
+        font-size: 18px;
+    }
+    .item .soluong{
+        width: 15%;
+        float: left;
+        padding-top: 40px;
+    }
+    .item .soluong input{
+        width: 40px;
+        height: 30px;
+    }
+    .item .thanhtien{
+        width: 20%;
+        float: left;
+        padding-top: 50px;
+    }
     #main #total h4{
         text-align: left;
     }
     
     #btn #btn1{
-        display: none;
-    }
-    #btn #btn1_phone{
-        display: block;
-        margin-top: 10px;
+        width: 100%;
     }
     #btn #btn2{
         width: 100%;
@@ -251,9 +281,12 @@ iframe{
     }
     #main #detail_phone{
         height: 250px;
-        margin-left: 0px;
-        margin-right: 0px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+
     }
+
 }
 @media (max-width: 390px){
     #main #detail_phone{
