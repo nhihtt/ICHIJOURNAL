@@ -121,9 +121,15 @@
         </div>
     </div>
     <div id="pop_btn" class="canle">
-        <input type="button" value=" Tới giỏ hàng" id="btn-giohang">
-        <input type="button" value="Tiến hành thanh toán" id="btn-thanhtoan">
-        <input id="btn-phone" type="button" value="Tiếp tục mua hàng">
+        <a href="PaymentPage.html">
+            <input type="button" value=" Tới giỏ hàng" id="btn-giohang">
+        </a>
+        
+        <a href="ICHIPaymentDetail.html">
+            <input type="button" value="Tiến hành thanh toán" id="btn-thanhtoan">
+        </a>
+        
+        
     </div>
     </div>  
     <!-- trang chính  -->
@@ -192,7 +198,7 @@
     </div>
 
     <script>
-
+        
         function hienPopup(){
             popup=document.getElementById("popup");
             popup.style.display="block";
@@ -201,6 +207,7 @@
             popup=document.getElementById("popup");
             popup.style.display="none";
         }
+        
 
     </script>
 </body>

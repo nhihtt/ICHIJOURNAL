@@ -538,13 +538,9 @@ body{
 
     }
     #btn-giohang{
-        display: none;
-    }
-    #btn-phone{
-        display: block;
-        margin-top: 10px;
         width: 100%;
     }
+    
     #btn-thanhtoan{
         width: 100%;
         margin-top: 10px;
