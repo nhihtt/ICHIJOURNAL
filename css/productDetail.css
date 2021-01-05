@@ -4,6 +4,7 @@ html{
 body{
 
     font-family:'Montserrat', sans-serif;
+    font-size: 15px;
     background-color:#fff;
 }
 /* Start css popup */
@@ -16,7 +17,7 @@ body{
     left:  25%;
     z-index: 1;
     background-color: white;
-    /* display: none; */
+    display: none;
 }
 #pop_title{
     width: 100%;
@@ -133,6 +134,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+    margin-bottom: 15px;
     float: left;
 }
 #banner h2{
@@ -170,7 +172,7 @@ body{
     height: 500px;
     width: 45%;
     float: left;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
 }
 #main{ 
@@ -180,15 +182,15 @@ body{
 
 }
 #main img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 } 
 
 #description{
     width: 45%;
-    height: 480px;
+    height: 500px;
     float: left;
-    background-color: lightgrey;
+    background-color: rgb(241, 241, 241);
     box-sizing: border-box;
     text-align:inherit;
     padding-left: 2%;
@@ -211,44 +213,53 @@ body{
 #price{
     width: 150px;
     height: 35px;
-    background-color: lightsalmon;
+    background-color: rgb(250, 238, 132);
     text-align: center;
     line-height: 35px;
     margin-bottom: 15px;
 }
+#description input{
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+}
 #description label{
-    color: rgb(192, 3, 3);
+    color: rgb(53, 50, 5);
     margin-right: 30px;
 }
 #description #soluong{
-    width: 40px;
+    width: 60px;
+    height: 26px;
 }
 #btn{
-height: 35px; 
-width: 180px;
-background-color: rgba(219, 20, 20, 0.719);
+height: 40px; 
+width: 200px;
+background-color: rgb(133, 125, 55);
 border-radius: 5px;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 border: none;
-color: white;
+color: rgb(0, 0, 0);
+font-weight: 520;
 margin-top: 25px;
 margin-bottom: 15px;
+font-size: 16px;
 }
 #sdt{
     color: rgb(192, 4, 4);
 }
 
 #recommend{
-    height: 250px;
+    height: 280px;
     width: 100%;
-    background-color:rgb(227, 231, 231);
+    background-color:rgb(241, 243, 243);
     float: left;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 #title{
     width: 250px;
-    background-color: tomato;
+    background-color:  rgb(250, 238, 132);
     float: left;
     text-align: center;
     height: 35px;
@@ -257,8 +268,8 @@ margin-bottom: 15px;
 #title h5{
     margin: 0;
     padding: 0;
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: 560;
 }
 #list{
     float: left;
@@ -278,7 +289,6 @@ margin-bottom: 15px;
     height: 150px;
     width: 100%;
     float: left;
-
 } 
 #slide .boxPhoto{
     width: 30%;
@@ -294,8 +304,8 @@ margin-bottom: 15px;
 /* END CSS SLIDE */
 /* START CSS RECOMMEND */
 .boxItem{
-    width: 20%;
-    height: 200px;
+    width: 18%;
+    height: 220px;
     float: left;
     text-align: center;
 }
@@ -325,7 +335,7 @@ margin-bottom: 15px;
 @media (max-width: 1100px){
     #content{
         height: auto;
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
