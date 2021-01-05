@@ -1,45 +1,10 @@
-body{
-
-    font-family:'Montserrat', sans-serif;
-    background-color:#fff;
-}
 #container{
     width: 100%;
     margin-top: 15px;
-    float: left;
-}
-#banner{
-    text-align: center;
-    width: 100%;
-    height: 200px;
-    background-image: url(/img/img_banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    float: left;
-}
-#banner h2{
-    line-height: 100px;
-    color:tomato;
-   
-}
-#banner #menu a{
-    line-height: 5px;
-    text-decoration: none;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
-#banner #menu a:hover{
-    text-decoration: underline;
-    color:rgb(216, 142, 6);
 }
 #cover{
     height:auto;
     width: 100%;
-    margin-top: 20px;
-       float: left;
 }
 #content{
     height: auto;
@@ -48,11 +13,10 @@ body{
     margin-right: auto;
 }
 #image{
-    height: 450px;
+    height: 500px;
     width: 45%;
     float: left;
-    margin-left: auto; 
-    margin-right: auto;
+    margin-right: 5%; 
 }
 #main{ 
     width: 100%;
@@ -60,13 +24,13 @@ body{
     text-align: center;
 }
 #main img{
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 100%;
 } 
 
 #description{
     width: 45%;
-    height: auto;
+    height: 480px;
     float: left;
     background-color: lightgrey;
     box-sizing: border-box;
@@ -200,8 +164,8 @@ margin-bottom: 15px;
         margin-right: auto;
     }
     #main img{
-        width: 330px;
-        height: 330px;
+        width: 280px;
+        height: 280px;
     } 
     #image{
         width: 50%;
@@ -216,10 +180,6 @@ margin-bottom: 15px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
-    #main{
-        height: 300px;
-        margin-bottom: 0px;
     }
     #main img{
         width: 300px;
@@ -237,7 +197,7 @@ margin-bottom: 15px;
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     #title{
         width: 170px;
