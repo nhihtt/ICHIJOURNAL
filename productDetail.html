@@ -6,8 +6,8 @@
     <title>Chi tiết 1 sản phẩm</title>
     <link rel="stylesheet" href="/css/productDetail.css">
     <script src="/js/angular.min.js"></script>
-    <script src="/js/appFactory.js"></script>
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <style>
         .header{
             width: 90%;
@@ -78,7 +78,7 @@
                 return output
             }
         })
-        
+
     </script>
     <script >
         function resizeIframe(obj) {
@@ -87,8 +87,8 @@
     </script>
 </head>
 <body>
-  <!-- Đây là popup sản phẩm -->
-  <div id="popup">
+    <!-- Đây là popup sản phẩm -->
+    <div id="popup">
     <div id="pop_title">
         <div id="text">
             <i class="fas fa-check"></i> &nbsp; <span>Sản phẩm vừa được thêm vào giỏ hàng</span>
@@ -118,10 +118,8 @@
         <input type="button" value="Tiến hành thanh toán" id="btn-thanhtoan">
         <input id="btn-phone" type="button" value="Tiếp tục mua hàng">
     </div>
-  </div>  
-
-   
-      <!-- trang chính  -->
+    </div>  
+    <!-- trang chính  -->
     <div class="header">
         <iframe src="ICHIheader.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
@@ -152,9 +150,8 @@
                     <div id="gach"></div>
                     <div id="price">{{pd.Price}}</div>
                     <label>Số lượng</label>
-                    <input type="button" id="btnSLTru" value="-"> 
                     <input type="number" value="0" id="soluong"> 
-                    <input type="button" id="btnSLCong"  value="+"> <br>
+                    <br>
                     <input type="button" value="Thêm vào giỏ hàng" id="btn" onclick="hienPopup()"><br>
                     Gọi đặt mua: <span id="sdt">0123456789</span> (Miễn phí, 8-21h cả T7, CN) <br><br>
                     Giao hàng và Đổi trả: <br>
@@ -186,6 +183,7 @@
     <div class="footer">
         <iframe src="ICHIfooter.html" frameborder="0"scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
+
     <script>
 
         function hienPopup(){
@@ -196,6 +194,7 @@
             popup=document.getElementById("popup");
             popup.style.display="none";
         }
+
     </script>
 </body>
 </html>
