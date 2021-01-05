@@ -134,6 +134,9 @@ body{
             border-radius: 5px 5px 5px 5px;
             border: rgb(224, 222, 222);
         }
+        /* #popup_btn input:hover{
+            background-color: rgb(245, 151, 10);
+        } */
         #btn-giohang{
             width: 100px;
             background-color: rgb(170, 168, 168);
@@ -142,10 +145,16 @@ body{
             border: rgb(224, 222, 222);
             margin-right: 20px;
         }
+        #btn-giohang:hover{
+            background-color: rgb(245, 151, 10);
+        }
         #btn-thanhtoan{
             width: 200px;
             background-color: indianred;
             color: white;
+        }
+        #btn-thanhtoan:hover{
+            background-color: rgb(245, 151, 10);
         }
         #btn-phone{
             display: none;
@@ -155,6 +164,9 @@ body{
             border-radius: 5px 5px 5px 5px;
             border: rgb(224, 222, 222);
             margin-right: 20px;
+        }
+        #btn-phone:hover{
+            background-color: rgb(245, 151, 10);
         }
         /* END POP UP BTN */
 /* END POPUP CSS */
@@ -232,7 +244,6 @@ body{
                     height: 150px;
                     width: 100%;
                     float: left;
-
                 } 
                 #slide .boxPhoto{
                     width: 30%;
@@ -240,6 +251,10 @@ body{
                     margin-right: 10px;
                     height: 120px;
                     float: left;
+                }
+                #slide .boxPhoto:hover{
+                    transform: scale(1.05);
+                    transition: all ease-in-out 0.5s;
                 }
                 #slide .boxPhoto img{
                     width: 100%;
@@ -286,6 +301,13 @@ body{
     }
     #description #soluong{
         width: 40px;
+        text-align: center;
+    }
+    #description #btnSLCong:hover{
+        background-color: rgb(245, 151, 10);
+    }
+    #description #btnSLTru:hover{
+        background-color: rgb(245, 151, 10);
     }
     #description #btn{
         height: 35px; 
@@ -299,6 +321,9 @@ body{
         margin-top: 25px;
         margin-bottom: 15px;
         }
+    #description #btn:hover{
+        background-color: rgb(245, 151, 10);
+    }
     #description #sdt{
             color: rgb(192, 4, 4);
         }
@@ -356,6 +381,10 @@ body{
                     }
                     .boxItem .linkProductDetail{
                         text-decoration: none;
+                    }
+                    .boxItem .imgBox:hover{
+                        transform: scale(1.05);
+                        transition: all ease-in-out 0.5s;
                     }
             /* END CSS RECOMMEND */
     /* END COVER CSS  */
