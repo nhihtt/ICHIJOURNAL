@@ -150,11 +150,10 @@ body{
 #banner #menu a:hover{
     text-decoration: underline;
     color:rgb(216, 142, 6);
-=======
+}
 #container{
     width: 100%;
     margin-top: 15px;
-
 }
 #cover{
     height:auto;
