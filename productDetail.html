@@ -43,7 +43,16 @@
             $scope.idproduct=unescape(getUrlVars()["id"])
             $scope.photos=function(item){
                 return item.photos
-            }    
+            } 
+            $scope.category=function(){
+                category=""
+                for(var i=0; i<products.length;i++){
+                    if(products[i].id==idproduct){
+                        category=products[i].category
+                    }
+                }
+                return category
+            }   
         })
         })
         app.filter('filterProduct',function(){
@@ -88,8 +97,11 @@
                     <img src="{{pd.Picture}}" alt="">
                 </div>
                 <div id="slide">
-                    <div class="boxPhoto" ng-repeat="pt in photos(pt)">
-                        <a>{{pt}}</a>
+                    <div class="boxPhoto" ng-repeat="pt in photos(pd)">
+                        <div class="storePhoto">
+                            <img src="{{pt}}" alt="">
+                        </div>
+                        
                     </div>
                 </div>
                 </div>
@@ -115,14 +127,14 @@
                     <div id="title">
                         <h5>SẢN PHẨM TƯƠNG TỰ</h5>
                     </div>
-                    <div id="list" ng-init="category={{pd.category}}">
-                        <div class="boxItem" ng-repeat="pd in products|filterCategory:{{category}}" >
-                            <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" >
+                    <div id="list">
+                        <div class="boxItem" ng-repeat="pdrecommend in products|filterCategory:{{pd.category}}" >
+                            <a class="linkProductDetail" href="productDetail.html?id={{pdrecommend.id}}" >
                                 <div class="imgBox">
-                                    <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                                    <img class="imgProduct" src="{{pdrecommend.Picture}}" alt="">
                                 </div>
-                                <div class="nameProduct">{{pd.name}}</div><br>
-                                <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                                <div class="nameProduct">{{pdrecommend.name}}</div><br>
+                                <div class="priceProduct">{{pdrecommend.Price}} VNĐ</div>
                             </a>      
                         </div>
                     </div>
