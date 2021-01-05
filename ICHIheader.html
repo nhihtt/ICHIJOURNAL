@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> HEADER | ICHI JOURNAL </title>
+    <title> HEADER | ICHI WEBSITE </title>
     <!-- favicon -->
     <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
     <!-- EXTERNAL LINKS -->
-    <link rel="stylesheet" href="/css/ICHIheader.css">
+    <link rel="stylesheet" href="css/ICHIheader.css">
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <header>
-        <section>
             <!-- MAIN CONTAINER -->
-            <div id="container">            
+            <div id="container">
                 <div id="logo">
-                    <div id="hambergur">
+                    <div class="dropdownn">
+                    <div id="hambergur" onclick="hienMenu()">
                         <i class="fas fa-bars"></i>
                     </div>
+                    <div id="menu-content">
+                        <a href="">Trang chủ</a><br>
+                        <a href="">Sản phẩm</a><br>
+                        <a href="">Blog</a><br>
+                        <a href="">Giới thiệu</a><br>
+                    </div>
+                </div>
                     <div id="user">
                         <a href="#"><i class="fas fa-search"></i></a>
                         <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"></i><div id="badge"> 0 </div></i></a>
@@ -30,19 +35,27 @@
                 </div>
                     <div id="menu">
                         <ul>
-                            <li><a href="ICHI_main.html" target="_blank">Trang chủ</a> </li>
-                            <li><a href="ICHIProduct.html" target="_blank" >Sản phẩm</a></li>
+                            <li><a href="">Trang chủ</a> </li>
+                            <li><a href="">Sản phẩm</a></li>
                             <li><a href="">Blog</a></li>
-                            <li><a href="gioiThieu_AboutUs.html" target="_blank">Giới thiệu</a></li>
+                            <li><a href="">Giới thiệu</a></li>
                         </ul>
                     </div>
                     <div id="search">
-                        <i class="fas fa-search search"></i>
                         <input type="text" id="input" name="searchBox" placeholder="Search for product">
                     </div>
             </div>
-        </section>
-    </header>
-
 </body>
+<script>
+    function hienMenu(){
+        var menu=document.getElementById("menu-content");
+        if (menu.style.display 
+=== "none") {
+    menu.style.display = "block";
+  } else {
+    menu.style.display = 
+  "none";
+  }
+    }
+</script>
 </html>
