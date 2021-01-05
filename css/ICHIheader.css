@@ -118,7 +118,7 @@ body
 #menu ul li a{
     text-decoration: none;
     color: rgb(44, 43, 43);
-    font-size: 22px;
+    font-size: 18px;
     font-family:'Montserrat', sans-serif;
 }
 #menu ul li a:hover{

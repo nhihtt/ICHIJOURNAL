@@ -146,12 +146,15 @@ body{
 #banner #menu a:hover{
     text-decoration: underline;
     color:rgb(216, 142, 6);
+=======
+#container{
+    width: 100%;
+    margin-top: 15px;
+
 }
 #cover{
     height:auto;
     width: 100%;
-    margin-top: 20px;
-       float: left;
 }
 #content{
     height: auto;
@@ -160,11 +163,10 @@ body{
     margin-right: auto;
 }
 #image{
-    height: 450px;
+    height: 500px;
     width: 45%;
     float: left;
-    margin-left: auto; 
-    margin-right: auto;
+    margin-right: 5%; 
 }
 #main{ 
     width: 100%;
@@ -172,13 +174,13 @@ body{
     text-align: center;
 }
 #main img{
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 100%;
 } 
 
 #description{
     width: 45%;
-    height: auto;
+    height: 480px;
     float: left;
     background-color: lightgrey;
     box-sizing: border-box;
@@ -232,7 +234,7 @@ margin-bottom: 15px;
 }
 
 #recommend{
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-color:rgb(227, 231, 231);
     float: left;
@@ -270,22 +272,31 @@ margin-bottom: 15px;
     height: 150px;
     width: 100%;
     float: left;
+
 } 
 #slide .boxPhoto{
-    width: 25%;
-    background-color: aquamarine;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 120px;
+    float: left;
+}
+#slide .boxPhoto img{
+    width: 100%;
+    height: 120px;
 }
 /* END CSS SLIDE */
 /* START CSS RECOMMEND */
 .boxItem{
-    width: 25%;
+    width: 20%;
     height: 200px;
     float: left;
+    text-align: center;
 }
 .boxItem .imgBox{
     margin: 5% 5% 5% 5%;
-    width: 90%;
-    height: 270px;
+    width: 80%;
+    height: 150px;
     border-radius: 10px;
 }
 .boxItem .imgBox .imgProduct{
@@ -312,8 +323,8 @@ margin-bottom: 15px;
         margin-right: auto;
     }
     #main img{
-        width: 330px;
-        height: 330px;
+        width: 280px;
+        height: 280px;
     } 
     #image{
         width: 50%;
@@ -328,10 +339,6 @@ margin-bottom: 15px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-    }
-    #main{
-        height: 300px;
-        margin-bottom: 0px;
     }
     #main img{
         width: 300px;
@@ -349,7 +356,7 @@ margin-bottom: 15px;
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        margin-top: 5px;
+        margin-top: 15px;
     }
     #title{
         width: 170px;

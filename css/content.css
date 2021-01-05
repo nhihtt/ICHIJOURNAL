@@ -79,15 +79,16 @@ h2{
     }
 }
 @media(max-width: 1090px){
+   
     .boxItem{
         width: 25%;
-        height: 280px;
+        height: 260px;
         float: left;
     }
     .boxItem .imgBox{
         margin: 5% 5% 5% 5%;
         width: 90%;
-        height: 200px;
+        height: 160px;
         border-radius: 10px;
     }
     .boxItem .imgBox .imgProduct{
@@ -108,15 +109,16 @@ h2{
 }
 @media(max-width: 500px)
 {
+   
     .boxItem{
         width: 50%;
-        height: 220px;
+        height: 200px;
         float: left;
     }
     .boxItem .imgBox{
         margin: 5% 5% 5% 5%;
         width: 90%;
-        height: 150px;
+        height: 120px;
         border-radius: 10px;
     }
     .boxItem .imgBox .imgProduct{
