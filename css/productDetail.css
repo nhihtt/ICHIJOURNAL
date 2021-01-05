@@ -1,12 +1,124 @@
+html{
+    position: relative;
+}
 body{
 
     font-family:'Montserrat', sans-serif;
     background-color:#fff;
 }
+/* popup */
+/* .header{
+    z-index: 0;
+}
+.footer{
+    z-index: 0;
+} */
+#popup{
+    width: 700px;
+    border: solid gray 1px;
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    z-index: 1;
+    background-color: white;
+}
+#pop_title{
+    width: 100%;
+    float: left;
+    height: auto;
+    border-bottom: black solid 1px;
+    margin-bottom: 5px;
+    height: 30px;
+    background-color: rgb(194, 194, 194);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+#text{
+    width: 95%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#thoat{
+    width: 5%;
+    float: left;
+    text-align: center;
+    border: grey solid 1px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.canle{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+#pop_detail{
+    width: 100%;
+    float: left;
+    border-bottom: black solid 1px;
+    margin-bottom: 5px;
+}
+#pop_total{
+    width: 100%;
+    float: left;
+    border-bottom: black solid 1px;
+    height: 30px;
+    line-height: 30px;
+}
+#total_left{
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+#total_right{
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+.bold{
+    font-weight: bold;
+}
+#tongSP{
+    color: rgb(133, 132, 132);
+}
+#tongtien{
+    font-size: 22px;
+    color: red;
+}
+#pop_btn{
+    width: 100%;
+    float: left;
+    text-align: right;
+    line-height: 45px;
+    height: 45px;
+}
+#pop_btn input{
+    padding-right: 20px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    border: rgb(224, 222, 222);
+}
+#btn-giohang{
+    width: 100px;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: rgb(224, 222, 222);
+    margin-right: 20px;
+}
+#btn-thanhtoan{
+    width: 200px;
+    background-color: indianred;
+    color: white;
+}
+/* css chính */
 #container{
     width: 100%;
     margin-top: 15px;
     float: left;
+    /* z-index: 0; */
 }
 #banner{
     text-align: center;

@@ -79,15 +79,46 @@
     </script>
 </head>
 <body>
+  <!-- Đây là popup sản phẩm -->
+  <div id="popup">
+    <div id="pop_title">
+        <div id="text">
+            <i class="fas fa-check"></i> &nbsp; <span>Sản phẩm vừa được thêm vào giỏ hàng</span>
+        </div>
+        <div id="thoat">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <div id="pop_detail" class="canle">
+        đây là table sp
+    </div>
+    <div id="pop_total" class="canle">
+        <div id="total_left">
+            <span class="bold">GIỎ HÀNG CỦA BẠN</span> &nbsp; <span class="bold" id="tongSP">(X sp)</span>
+        </div>
+        <div id="total_right">
+            <span class="bold">Tổng tiền thanh toán</span> &nbsp; <span class="bold" id="tongtien">X.000.000 </span>
+        </div>
+    </div>
+    <div id="pop_btn" class="canle">
+        <input type="button" value=" Tới giỏ hàng" id="btn-giohang">
+        <input type="button" value="Tiến hành thanh toán" id="btn-thanhtoan">
+    </div>
+  </div>  
+
+   
+      <!-- trang chính  -->
     <div class="header">
         <iframe src="ICHIheader.html" frameborder="0" width="100%" height="100%" scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
     <div id="container">
+        
         <div id="banner">
             <h2>GIỎ HÀNG</h2>
             <span id="menu"> <a href="ICHI_main.html" target="_top">Trang chủ</a>&nbsp; <i id="iconright"class="fas fa-angle-right"></i> &nbsp;
              <a href="">Giỏ hàng</a> </span>
         </div>
+        
         <div id="cover" ng-app="contentApp" ng-controller="detailProduct">
             <div id="content" ng-repeat="pd in products|filterProduct:idproduct">
                 <div id="image">
