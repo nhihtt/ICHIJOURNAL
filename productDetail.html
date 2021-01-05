@@ -128,12 +128,10 @@
     <div id="container">
 
         <div id="banner">
-            <h2>GIỎ HÀNG</h2>
+            <h2>CHI TIẾT SẢN PHẨM</h2>
             <span id="menu"> <a href="ICHI_main.html" target="_top">Trang chủ</a>&nbsp; <i id="iconright"class="fas fa-angle-right"></i> &nbsp;
-             <a href="">Giỏ hàng</a> </span>
-        </div>
-        
-
+             <a href="">Sản phẩm</a> </span>
+        </div>  
         <div id="cover" ng-app="contentApp" ng-controller="detailProduct">
             <div id="content" ng-repeat="pd in products|filterProduct:idproduct">
                 <div id="image">
@@ -154,9 +152,9 @@
                     <div id="gach"></div>
                     <div id="price">{{pd.Price}}</div>
                     <label>Số lượng</label>
-                    <input type="button" value="-"> 
-                    <input type="number" name="" id="soluong">
-                    <input type="button" value="+"> <br>
+                    <input type="button" id="btnSLTru" value="-"> 
+                    <input type="number" name="" id="soluong"> 0
+                    <input type="button" id="btnSLCong"  value="+"> <br>
                     <input type="button" value="Thêm vào giỏ hàng" id="btn"><br>
                     Gọi đặt mua: <span id="sdt">0123456789</span> (Miễn phí, 8-21h cả T7, CN) <br><br>
                     Giao hàng và Đổi trả: <br>

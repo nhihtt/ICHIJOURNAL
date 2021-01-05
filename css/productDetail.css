@@ -4,6 +4,7 @@ html{
 body{
 
     font-family:'Montserrat', sans-serif;
+    font-size: 15px;
     background-color:#fff;
 }
 /* START BODY OF HTML CSS */
@@ -168,6 +169,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+    margin-bottom: 15px;
     float: left;
     z-index: 0;
     margin-bottom: 10px;
@@ -176,6 +178,7 @@ body{
     height:auto;
     width: 100%;
 }
+
         /* START BANNER CSS  */
         #banner h2{
             line-height: 100px;
@@ -359,11 +362,12 @@ body{
 /* END CONTAINER CSS */
 
 
+
 /* reposive main css  */
 @media (max-width: 1100px){
     #content{
         height: auto;
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
