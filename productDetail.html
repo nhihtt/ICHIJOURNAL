@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi tiết 1 sản phẩm</title>
     <link rel="stylesheet" href="/css/productDetail.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="/js/angular.min.js"></script>
     <script src="/js/appFactory.js"></script>
-    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
     <style>
         .header{
             width: 90%;
@@ -45,7 +43,16 @@
             $scope.idproduct=unescape(getUrlVars()["id"])
             $scope.photos=function(item){
                 return item.photos
-            }    
+            } 
+            $scope.category=function(){
+                category=""
+                for(var i=0; i<products.length;i++){
+                    if(products[i].id==idproduct){
+                        category=products[i].category
+                    }
+                }
+                return category
+            }   
         })
         })
         app.filter('filterProduct',function(){
@@ -113,16 +120,17 @@
    
       <!-- trang chính  -->
     <div class="header">
-        <iframe src="ICHIheader.html" frameborder="0" width="100%" height="100%" scrolling='no'onload="resizeIframe(this)"></iframe>
+        <iframe src="ICHIheader.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
     <div id="container">
-        
+
         <div id="banner">
             <h2>GIỎ HÀNG</h2>
             <span id="menu"> <a href="ICHI_main.html" target="_top">Trang chủ</a>&nbsp; <i id="iconright"class="fas fa-angle-right"></i> &nbsp;
              <a href="">Giỏ hàng</a> </span>
         </div>
         
+
         <div id="cover" ng-app="contentApp" ng-controller="detailProduct">
             <div id="content" ng-repeat="pd in products|filterProduct:idproduct">
                 <div id="image">
@@ -130,8 +138,11 @@
                     <img src="{{pd.Picture}}" alt="">
                 </div>
                 <div id="slide">
-                    <div class="boxPhoto" ng-repeat="pt in photos(pt)">
-                        <a>{{pt}}</a>
+                    <div class="boxPhoto" ng-repeat="pt in photos(pd)">
+                        <div class="storePhoto">
+                            <img src="{{pt}}" alt="">
+                        </div>
+                        
                     </div>
                 </div>
                 </div>
@@ -157,14 +168,14 @@
                     <div id="title">
                         <h5>SẢN PHẨM TƯƠNG TỰ</h5>
                     </div>
-                    <div id="list" ng-init="category={{pd.category}}">
-                        <div class="boxItem" ng-repeat="pd in products|filterCategory:{{category}}" >
-                            <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" >
+                    <div id="list">
+                        <div class="boxItem" ng-repeat="pdrecommend in products|filterCategory:pd.category|limitTo:5" >
+                            <a class="linkProductDetail" href="productDetail.html?id={{pdrecommend.id}}" >
                                 <div class="imgBox">
-                                    <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                                    <img class="imgProduct" src="{{pdrecommend.Picture}}" alt="">
                                 </div>
-                                <div class="nameProduct">{{pd.name}}</div><br>
-                                <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                                <div class="nameProduct">{{pdrecommend.name}}</div><br>
+                                <div class="priceProduct">{{pdrecommend.Price}} VNĐ</div>
                             </a>      
                         </div>
                     </div>
