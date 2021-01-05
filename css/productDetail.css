@@ -24,6 +24,7 @@ body{
     z-index: 1;
     background-color: white;
     display: none;
+    border-radius: 5px;
 }
 #container{
     width: 100%;
@@ -40,14 +41,14 @@ body{
     #pop_title{
     width: 100%;
     float: left;
-    height: auto;
-    border-bottom: black solid 1px;
+    border-bottom: var(--mainColor2);
     margin-bottom: 5px;
-    height: 30px;
-    background-color: rgb(194, 194, 194);
+    height: 35px;
+    background-color: var(--mainColor4);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 30px;
+    border-radius: 5px 5px 0 0;
 }
     #pop_detail{
     width: 100%;
@@ -58,11 +59,13 @@ body{
     box-sizing: border-box;
 }
     #pop_total{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
     float: left;
-    border-bottom: black solid 1px;
     height: 30px;
     line-height: 30px;
+    font-size: 14px;
 }
     #pop_btn{
     width: 100%;
@@ -70,19 +73,21 @@ body{
     text-align: right;
     line-height: 45px;
     height: 45px;
+    margin-bottom: 10px;
 }
         /* START POPUP TITLE */
         #text{
+            padding-top: 2px;
             width: 95%;
             float: left;
             padding-left: 10px;
             box-sizing: border-box;
         }
         #thoat{
+            padding-top: 3px;
             width: 5%;
             float: left;
             text-align: center;
-            border: grey solid 1px;
             box-sizing: border-box;
             border-radius: 5px 5px 5px 5px;
         }
@@ -90,22 +95,46 @@ body{
         
         /* START POP UP DETAIL */
         .item{
-            height: 100px;
-            width: 100%;
+            height: 90px;
+            width: 96%;
+            margin-left: 2%;
             float: left;
-            background-color: lightblue;
+            border-bottom:1px solid var(--mainColor2);
         }
         .item .hinh{
-            width: 30%;
+            width: 20%;
             float: left;
         }
+        .item .hinh img{
+           
+            width: 90px;
+            height:90px;
+        }
         .item .mieuta{
+            padding-top: 25px;
             width: 40%;
             float: left;
         }
+        .item .mieuta .tenSP{
+            font-size: 14px;
+            color: var(--mainColor2);
+        }
+        .item .mieuta .giaSP{
+            font-size: 16px;
+            color: var(--mainColor1);
+        }
         .item .soluong{
-            width: 30%;
+            padding-top: 25px;
+            width: 20%;
             float: left;
+        }
+        .item .soluong input{
+            text-align: center;
+            width: 35px;
+            height: 25px;
+        }
+        .item .thanhtien{
+            padding-top: 30px;
         }
         /* END POP UP DETAIL */
 
@@ -129,7 +158,7 @@ body{
         }
         #tongtien{
             font-size: 22px;
-            color: red;
+            color: var(--mainColor2);
         }     
         /* END PUP UP TOTAL */
 
@@ -145,10 +174,9 @@ body{
         } */
         #btn-giohang{
             width: 100px;
-            background-color: rgb(170, 168, 168);
-            color: white;
+            background-color:var(--mainColor3);
+            color: black;
             border-radius: 5px 5px 5px 5px;
-            border: rgb(224, 222, 222);
             margin-right: 20px;
         }
         #btn-giohang:hover{
@@ -156,8 +184,8 @@ body{
         }
         #btn-thanhtoan{
             width: 200px;
-            background-color: indianred;
-            color: white;
+            background-color: var(--mainColor1);
+            color: black;
         }
         #btn-thanhtoan:hover{
             background-color: rgb(245, 151, 10);
@@ -422,6 +450,7 @@ body{
     }
     #description{
         width: 47%;
+        font-size: 12px;
     }
     
 }
@@ -444,6 +473,7 @@ body{
         margin-left: 0;
         margin-right: 0;
     }
+    
     #description{
         width: 100%;
         margin-left: 0;
@@ -485,8 +515,9 @@ body{
 }
 @media (max-width: 500px){
     #popup{
-        width: 100%;
-        top: 200px;
+        margin-left: 2%;
+        width: 94%;
+        top: 650px;
         left: 3px;
         height: auto;
     }
@@ -561,11 +592,46 @@ body{
         text-align: center;
     }
     .boxItem .imgBox{
-        margin: 0;
         margin-top: 5px;
+        margin-left: 10%;
         width: 80%;
         height: 120px;
-        border-radius: 10px;
     }
     
+}
+
+
+/* RESPONSIVE SLIDE IMG */
+
+@media (max-width: 900px){
+    #image #slide{
+        height: 130px;
+    } 
+    #slide .boxPhoto{
+        height: 110px;
+    }
+    #slide .boxPhoto img{
+        height: 80px;
+    }
+}
+@media (max-width: 500px){
+    #img{
+        height: 150px;
+        margin-bottom: 0;
+    }
+    #img #main{
+        height: 150px;
+    }
+    #image #slide{
+        height: 100px;
+        margin-bottom: 0;
+        margin-left: 10%;
+    } 
+    #slide .boxPhoto{
+        height: 90px;
+    
+    }
+    #slide .boxPhoto img{
+        height: 80px;
+    }
 }
