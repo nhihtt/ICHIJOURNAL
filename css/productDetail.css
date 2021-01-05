@@ -6,22 +6,17 @@ body{
     font-family:'Montserrat', sans-serif;
     background-color:#fff;
 }
-/* popup */
-/* .header{
-    z-index: 0;
-}
-.footer{
-    z-index: 0;
-} */
+/* Start css popup */
 #popup{
     width: 700px;
     border: solid gray 1px;
     float: left;
     position: absolute;
-    top: 200px;
-    left: 30%;
+    top: 450px;
+    left:  25%;
     z-index: 1;
     background-color: white;
+    /* display: none; */
 }
 #pop_title{
     width: 100%;
@@ -113,13 +108,22 @@ body{
     background-color: indianred;
     color: white;
 }
-/* css chính */
+#btn-phone{
+    display: none;
+    width: 100px;
+    background-color: rgb(170, 168, 168);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: rgb(224, 222, 222);
+    margin-right: 20px;
+}
+/* start main css */
 #container{
     width: 100%;
     margin-top: 15px;
     float: left;
-    /* z-index: 0; */
 }
+/* start banner css */
 #banner{
     text-align: center;
     width: 100%;
@@ -153,6 +157,7 @@ body{
     margin-top: 20px;
        float: left;
 }
+/* strart content css */
 #content{
     height: auto;
     width: 80%;
@@ -304,6 +309,7 @@ margin-bottom: 15px;
     text-decoration: none;
 }
 /* END CSS RECOMMEND */
+/* reposive main css  */
 @media (max-width: 1100px){
     #content{
         height: auto;
@@ -372,3 +378,64 @@ margin-bottom: 15px;
         font-size: 15px;
     }
 }
+/* responsive popup css */
+@media (max-width: 1500px){
+    #popup{
+        left:  20%;
+    }
+}
+@media (max-width: 900px){
+    #popup{
+        left:  10%;
+        width: 80%;
+    }
+}
+@media (max-width: 500px){
+    #popup{
+        width: 100%;
+        top: 200px;
+        left: 3px;
+        height: auto;
+    }
+    #pop_title{
+        font-size: 15px;
+    }
+    #total_left{
+        width: 100%;
+        font-size: 13px;
+    }
+    #total_right{
+        width: 100%;
+        font-size: 13px;
+        text-align: left;
+    }
+    #pop_total{
+        height: 60px;
+
+    }
+    #btn-giohang{
+        display: none;
+    }
+    #btn-phone{
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+    #btn-thanhtoan{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #pop_btn{
+        height: 100px;
+    }
+    #pop_detail{
+        display: none;
+    }
+    #pop_phone{
+        display: block;
+    }
+   
+}
+
+
+
