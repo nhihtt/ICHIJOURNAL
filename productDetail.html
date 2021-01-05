@@ -93,7 +93,7 @@
         <div id="text">
             <i class="fas fa-check"></i> &nbsp; <span>Sản phẩm vừa được thêm vào giỏ hàng</span>
         </div>
-        <div id="thoat">
+        <div id="thoat" onclick="anPopup()">
             <i class="fas fa-times"></i>
         </div>
     </div>
@@ -153,9 +153,9 @@
                     <div id="price">{{pd.Price}}</div>
                     <label>Số lượng</label>
                     <input type="button" id="btnSLTru" value="-"> 
-                    <input type="number" name="" id="soluong"> 
+                    <input type="number" value="0" id="soluong"> 
                     <input type="button" id="btnSLCong"  value="+"> <br>
-                    <input type="button" value="Thêm vào giỏ hàng" id="btn"><br>
+                    <input type="button" value="Thêm vào giỏ hàng" id="btn" onclick="hienPopup()"><br>
                     Gọi đặt mua: <span id="sdt">0123456789</span> (Miễn phí, 8-21h cả T7, CN) <br><br>
                     Giao hàng và Đổi trả: <br>
                     <ul>
@@ -186,5 +186,16 @@
     <div class="footer">
         <iframe src="ICHIfooter.html" frameborder="0"scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
+    <script>
+
+        function hienPopup(){
+            popup=document.getElementById("popup");
+            popup.style.display="block";
+        }
+        function anPopup(){
+            popup=document.getElementById("popup");
+            popup.style.display="none";
+        }
+    </script>
 </body>
 </html>
