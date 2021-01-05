@@ -169,7 +169,7 @@
                         <h5>SẢN PHẨM TƯƠNG TỰ</h5>
                     </div>
                     <div id="list">
-                        <div class="boxItem" ng-repeat="pdrecommend in products|filterCategory:pd.category|limitTo:5" >
+                        <div class="boxItem" ng-repeat="pdrecommend in products|filterCategory:pd.category|limitTo:5:pd.id" >
                             <a class="linkProductDetail" href="productDetail.html?id={{pdrecommend.id}}" >
                                 <div class="imgBox">
                                     <img class="imgProduct" src="{{pdrecommend.Picture}}" alt="">
