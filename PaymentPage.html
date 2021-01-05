@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ hàng</title>
     <link rel="stylesheet" href="/css/PaymentPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
 </head>
 <body>
+    <div class="header">
+        <iframe src="ICHIheader.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
+    </div>
     <div id="container">
         <div id="banner">
             <h2>Giỏ hàng</h2>
@@ -16,14 +25,24 @@
           <h2>Giỏ hàng của bạn</h2>
           <div id="detail_phone">
             <div class="item">
-                <div class="hinh"></div>
-                <div class="mieuta"></div>
-                <div class="soluong"></div>
+                <div class="hinh">
+                    <img src="/json/hinhanh/sotay/1.jpg" alt="">
+                </div>
+                <div class="mieuta">
+                    <a class="tenSP"> Sổ tay Crabit</a> <br>
+                    <a class="giaSP">199.000</a>
+                </div>
+                <div class="soluong">
+                    <input type="number" value="1">
+                </div>
+                <div class="thanhtien">
+                    <a >120000</a>
+                </div>
             </div>
           </div>
           <div id="total">
             <div id="labell"><h4>Tổng số thành tiền:</h4></div>
-            <div id="money"></div>
+            <div id="money">500.000</div>
           </div>
           <div id="btn">
             <input id="btn1" type="button" value="Tiếp tục mua hàng">
@@ -45,6 +64,9 @@
                 <img src="/css/image/giaohang4.png" > <br> GIÁ TIÊU CHUẨN
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <iframe src="ICHIfooter.html" frameborder="0" scrolling='no'onload="resizeIframe(this)"></iframe>
     </div>
 </body>
 </html>
