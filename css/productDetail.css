@@ -7,7 +7,7 @@ body{
     font-size: 15px;
     background-color:#fff;
 }
-/* Start css popup */
+/* START BODY OF HTML CSS */
 #popup{
     width: 700px;
     border: solid gray 1px;
@@ -19,7 +19,19 @@ body{
     background-color: white;
     display: none;
 }
-#pop_title{
+#container{
+    width: 100%;
+    margin-top: 15px;
+    float: left;
+}
+/* END BODY OF HTML CSS */
+    /* START POPUP CSS */
+    .canle{
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    #pop_title{
     width: 100%;
     float: left;
     height: auto;
@@ -31,100 +43,123 @@ body{
     font-size: 18px;
     line-height: 30px;
 }
-#text{
-    width: 95%;
-    float: left;
-    padding-left: 10px;
-    box-sizing: border-box;
-}
-#thoat{
-    width: 5%;
-    float: left;
-    text-align: center;
-    border: grey solid 1px;
-    box-sizing: border-box;
-    border-radius: 5px 5px 5px 5px;
-}
-.canle{
-    padding-left: 10px;
-    padding-right: 10px;
-    box-sizing: border-box;
-}
-#pop_detail{
+    #pop_detail{
     width: 100%;
     float: left;
+    height: 200px;
     border-bottom: black solid 1px;
     margin-bottom: 5px;
+    box-sizing: border-box;
 }
-#pop_total{
+    #pop_total{
     width: 100%;
     float: left;
     border-bottom: black solid 1px;
     height: 30px;
     line-height: 30px;
 }
-#total_left{
-    width: 50%;
-    text-align: left;
-    float: left;
-}
-#total_right{
-    width: 50%;
-    text-align: right;
-    float: left;
-}
-.bold{
-    font-weight: bold;
-}
-#tongSP{
-    color: rgb(133, 132, 132);
-}
-#tongtien{
-    font-size: 22px;
-    color: red;
-}
-#pop_btn{
+    #pop_btn{
     width: 100%;
     float: left;
     text-align: right;
     line-height: 45px;
     height: 45px;
 }
-#pop_btn input{
-    padding-right: 20px;
-    height: 35px;
-    border-radius: 5px 5px 5px 5px;
-    border: rgb(224, 222, 222);
-}
-#btn-giohang{
-    width: 100px;
-    background-color: rgb(170, 168, 168);
-    color: white;
-    border-radius: 5px 5px 5px 5px;
-    border: rgb(224, 222, 222);
-    margin-right: 20px;
-}
-#btn-thanhtoan{
-    width: 200px;
-    background-color: indianred;
-    color: white;
-}
-#btn-phone{
-    display: none;
-    width: 100px;
-    background-color: rgb(170, 168, 168);
-    color: white;
-    border-radius: 5px 5px 5px 5px;
-    border: rgb(224, 222, 222);
-    margin-right: 20px;
-}
-/* start main css */
-#container{
-    width: 100%;
-    margin-top: 15px;
-    float: left;
-}
-/* start banner css */
+        /* START POPUP TITLE */
+        #text{
+            width: 95%;
+            float: left;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+        #thoat{
+            width: 5%;
+            float: left;
+            text-align: center;
+            border: grey solid 1px;
+            box-sizing: border-box;
+            border-radius: 5px 5px 5px 5px;
+        }
+        /* END POPUP TITLE */
+        
+        /* START POP UP DETAIL */
+        .item{
+            height: 100px;
+            width: 100%;
+            float: left;
+            background-color: lightblue;
+        }
+        .item .hinh{
+            width: 30%;
+            float: left;
+        }
+        .item .mieuta{
+            width: 40%;
+            float: left;
+        }
+        .item .soluong{
+            width: 30%;
+            float: left;
+        }
+        /* END POP UP DETAIL */
+
+        /* START PUP UP TOTAL */
+            
+        #total_left{
+        width: 50%;
+        text-align: left;
+        float: left;
+        }
+        #total_right{
+        width: 50%;
+        text-align: right;
+        float: left;
+        }
+        .bold{
+        font-weight: bold;
+        }
+        #tongSP{
+            color: rgb(133, 132, 132);
+        }
+        #tongtien{
+            font-size: 22px;
+            color: red;
+        }     
+        /* END PUP UP TOTAL */
+
+        /* START POP UP BTN */
+        #pop_btn input{
+            padding-right: 20px;
+            height: 35px;
+            border-radius: 5px 5px 5px 5px;
+            border: rgb(224, 222, 222);
+        }
+        #btn-giohang{
+            width: 100px;
+            background-color: rgb(170, 168, 168);
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+            border: rgb(224, 222, 222);
+            margin-right: 20px;
+        }
+        #btn-thanhtoan{
+            width: 200px;
+            background-color: indianred;
+            color: white;
+        }
+        #btn-phone{
+            display: none;
+            width: 100px;
+            background-color: rgb(170, 168, 168);
+            color: white;
+            border-radius: 5px 5px 5px 5px;
+            border: rgb(224, 222, 222);
+            margin-right: 20px;
+        }
+        /* END POP UP BTN */
+/* END POPUP CSS */
+
+/* START CONTAINER CSS */
 #banner{
     text-align: center;
     width: 100%;
@@ -136,201 +171,198 @@ body{
     color: white;
     margin-bottom: 15px;
     float: left;
-}
-#banner h2{
-    line-height: 100px;
-    color:tomato;
-   
-}
-#banner #menu a{
-    line-height: 5px;
-    text-decoration: none;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
-#banner #menu a:hover{
-    text-decoration: underline;
-    color:rgb(216, 142, 6);
-}
-#container{
-    width: 100%;
-    margin-top: 15px;
+    z-index: 0;
+    margin-bottom: 10px;
 }
 #cover{
     height:auto;
     width: 100%;
 }
-/* strart content css */
-#content{
-    height: auto;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#image{
-    height: 500px;
-    width: 45%;
-    float: left;
-    margin-left: 5%;
-    margin-right: auto;
-}
-#main{ 
-    width: 100%;
-    height: auto;
-    text-align: center;
 
-}
-#main img{
-    width: 350px;
-    height: 350px;
-} 
+        /* START BANNER CSS  */
+        #banner h2{
+            line-height: 100px;
+            color:tomato;
+           
+        }
+        #banner #menu a{
+            line-height: 5px;
+            text-decoration: none;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+        #banner #menu a:hover{
+            text-decoration: underline;
+            color:rgb(216, 142, 6);
+        }
+        /* END BANNER CSS  */
 
-#description{
-    width: 45%;
-    height: 500px;
-    float: left;
-    background-color: rgb(241, 241, 241);
-    box-sizing: border-box;
-    text-align:inherit;
-    padding-left: 2%;
-}
-#description h4{
-    text-decoration: none;
-    font-weight:bold;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-#description span{
-    font-size: 13px;
-}
-#gach{
-    width: 50px;
-    height: 1px;
-    margin-bottom: 15px;
-    border-bottom: solid 2px gray;
-}
-#price{
-    width: 150px;
-    height: 35px;
-    background-color: rgb(250, 238, 132);
-    text-align: center;
-    line-height: 35px;
-    margin-bottom: 15px;
-}
-#description input{
-    width: 50px;
-    height: 30px;
-    font-size: 14px;
-}
-#description label{
-    color: rgb(53, 50, 5);
-    margin-right: 30px;
-}
-#description #soluong{
-    width: 60px;
-    height: 26px;
-}
-#btn{
-height: 40px; 
-width: 200px;
-background-color: rgb(133, 125, 55);
-border-radius: 5px;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border: none;
-color: rgb(0, 0, 0);
-font-weight: 520;
-margin-top: 25px;
-margin-bottom: 15px;
-font-size: 16px;
-}
-#sdt{
-    color: rgb(192, 4, 4);
-}
+        /* START COVER CSS  */
+        #content{
+            height: auto;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* END COVER CSS  */
+    /* START CONTENT CSS  */
+    /* css cho image div */
+    #image{
+        height: 500px;
+        width: 45%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    #image #main{ 
+        width: 100%;
+        height: auto;
+        text-align: center;
+    
+    }
+    #image #main img{
+        width: 400px;
+        height: 400px;
+    } 
+                /* START CSS SLIDE */
+                #image #slide{
+                    height: 150px;
+                    width: 100%;
+                    float: left;
 
-#recommend{
-    height: 280px;
-    width: 100%;
-    background-color:rgb(241, 243, 243);
-    float: left;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-#title{
-    width: 250px;
-    background-color:  rgb(250, 238, 132);
-    float: left;
-    text-align: center;
-    height: 35px;
-    line-height: 35px;
-}
-#title h5{
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-weight: 560;
-}
-#list{
-    float: left;
-    width: 100%;
-    border-top: gray 1px solid;
-}
-#viewed{
-    width: 100%;
-    height: 150px;
-    background-color:rgb(211, 209, 209);
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-/* START CSS SLIDE */
-#slide{
-    height: 150px;
-    width: 100%;
-    float: left;
-} 
-#slide .boxPhoto{
-    width: 30%;
-    margin-top: 10px;
-    margin-right: 10px;
-    height: 120px;
-    float: left;
-}
-#slide .boxPhoto img{
-    width: 100%;
-    height: 120px;
-}
-/* END CSS SLIDE */
-/* START CSS RECOMMEND */
-.boxItem{
-    width: 18%;
-    height: 220px;
-    float: left;
-    text-align: center;
-}
-.boxItem .imgBox{
-    margin: 5% 5% 5% 5%;
-    width: 80%;
-    height: 150px;
-    border-radius: 10px;
-}
-.boxItem .imgBox .imgProduct{
+                } 
+                #slide .boxPhoto{
+                    width: 30%;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    height: 120px;
+                    float: left;
+                }
+                #slide .boxPhoto img{
+                    width: 100%;
+                    height: 120px;
+                }
+                /* END CSS SLIDE */
+        /* css cho description div */
+    #description{
+        width: 45%;
+        height: 480px;
+        float: left;
+        background-color: lightgrey;
+        box-sizing: border-box;
+        text-align:inherit;
+        padding-left: 2%;
+        margin-left: 5px;
+    }
+    #description h4{
+        text-decoration: none;
+        font-weight:bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #description span{
+        font-size: 13px;
+    }
+    #description #gach{
+        width: 50px;
+        height: 1px;
+        margin-bottom: 15px;
+        border-bottom: solid 2px gray;
+    }
+    #description #price{
+        width: 150px;
+        height: 35px;
+        background-color: lightsalmon;
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    #description label{
+        color: rgb(192, 3, 3);
+        margin-right: 30px;
+    }
+    #description #soluong{
+        width: 40px;
+    }
+    #description #btn{
+        height: 35px; 
+        width: 180px;
+        background-color: rgba(219, 20, 20, 0.719);
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: none;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        }
+    #description #sdt{
+            color: rgb(192, 4, 4);
+        }
+            /* css cho recommend div */
+    #recommend{
+        height: 250px;
+        width: 100%;
+        background-color:rgb(227, 231, 231);
+        float: left;
+        margin-top: 30px;
+    }
+    #recommend #title{
+        width: 250px;
+        background-color: tomato;
+        float: left;
+        text-align: center;
+        height: 35px;
+        line-height: 35px;
+    }
+    #recommend #title h5{
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-weight: bold;
+    }
+    #recommend #list{
+        float: left;
+        width: 100%;
+        border-top: gray 1px solid;
+    }
+            /* START CSS RECOMMEND */
+                    #list .boxItem{
+                        width: 20%;
+                        height: 200px;
+                        float: left;
+                        text-align: center;
+                    }
+                    .boxItem .imgBox{
+                        margin: 5% 5% 5% 5%;
+                        width: 80%;
+                        height: 150px;
+                        border-radius: 10px;
+                    }
+                    .boxItem .imgBox .imgProduct{
 
-    width: 100%;
-    height: 100%;
-}
-.boxItem .nameProduct{
-    font-size: 14px;
-}
-.boxItem .priceProduct{
-    font-size: 16px;
-    color: red;
-}
-.boxItem .linkProductDetail{
-    text-decoration: none;
-}
-/* END CSS RECOMMEND */
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .boxItem .nameProduct{
+                        font-size: 14px;
+                    }
+                    .boxItem .priceProduct{
+                        font-size: 16px;
+                        color: red;
+                    }
+                    .boxItem .linkProductDetail{
+                        text-decoration: none;
+                    }
+            /* END CSS RECOMMEND */
+    /* END COVER CSS  */
+/* END CONTAINER CSS */
+
+
+
 /* reposive main css  */
 @media (max-width: 1100px){
     #content{
@@ -354,17 +386,17 @@ font-size: 16px;
     #content{
         height: auto;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
-    #main img{
+    #image #main img{
         width: 300px;
         height: 300px;
     } 
-    #image{
+    #content #image{
         width: 100%;
     }
-    #slide{
+    #image #slide{
         width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -390,11 +422,11 @@ font-size: 16px;
         color: white;
         font-weight: bold;
     }
-    #viewed H4{
+    /* #viewed H4{
         text-align: center;
         margin-top: 7px;
         font-size: 15px;
-    }
+    } */
 }
 /* responsive popup css */
 @media (max-width: 1500px){
@@ -445,14 +477,12 @@ font-size: 16px;
     }
     #pop_btn{
         height: 100px;
+    } 
+}
+@media (max-width: 360px){
+    #pop_title{
+        font-size: 13px;
     }
-    #pop_detail{
-        display: none;
-    }
-    #pop_phone{
-        display: block;
-    }
-   
 }
 
 
