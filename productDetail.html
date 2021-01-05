@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHI TIẾT SẢN PHẨM | ICHI</title>
+    <title>CHI TIẾT SẢN PHẨM |ICHI</title>
     <link rel="stylesheet" href="/css/productDetail.css">
     <script src="/js/angular.min.js"></script>
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
@@ -45,15 +45,12 @@
             $scope.photos=function(item){
                 return item.photos
             } 
-            $scope.category=function(){
-                category=""
-                for(var i=0; i<products.length;i++){
-                    if(products[i].id==idproduct){
-                        category=products[i].category
-                    }
-                }
-                return category
-            }   
+            $scope.getimgUrl=function(item){
+                return item.Picture
+            }
+            $scope.changeURL = function (url) { 
+                $scope.imgUrl = url; 
+            }; 
         })
         })
         app.filter('filterProduct',function(){
@@ -150,7 +147,7 @@
                     <img src="{{pd.Picture}}" alt="">
                 </div>
                 <div id="slide">
-                    <div class="boxPhoto" ng-repeat="pt in photos(pd)">
+                    <div class="boxPhoto" ng-repeat="pt in photos(pd)" ng-click="changeURL(pt)">
                         <div class="storePhoto">
                             <img src="{{pt}}" alt="">
                         </div>
