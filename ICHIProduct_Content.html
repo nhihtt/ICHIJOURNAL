@@ -76,11 +76,13 @@
                 <p>Planner 2021</p>
             </div>   
         </div>
-        <label  for="input_mobile" class="main_barmenu">
-            <i id="iconbar" class="fas fa-bars"></i>
-        </label>
-        <input hidden type="checkbox" id="input_mobile" class="input_mobile_mob">
-        <label  for="input_mobile" class="overlay"></label>
+        <div class="bar_menu_mob">
+            <label  for="input_mobile" class="main_barmenu">
+                <i id="iconbar" class="fas fa-bars"></i>
+            </label>
+            <input hidden type="checkbox" id="input_mobile" class="input_mobile_mob">
+            <label  for="input_mobile" class="overlay"></label>
+        </div>
         <div class="menu_mobile" >
             <label  for="input_mobile" class="iconclose">
                 <i class="fas fa-times"></i>
@@ -97,7 +99,7 @@
                                         <a class="category_link" href="">Sổ tay</a>
                                     </div>
                                     <div class="icon">
-                                        <a href="#" id="1" onclick="Appear('vt1')"><i class="fas fa-angle-down"></i></a>
+                                        <a href="#" id="1" onclick="Appear('vt1')"><i id="angle_down" class="fas fa-angle-down"></i></a>
                                     </div>
                                 </div>
                                 <div class="drop_menu" id="vt1">
@@ -218,12 +220,6 @@
             </div>
         </div> 
         <div class="mainLeft">
-            <!-- bar -->
-            <!-- <div class="main_barmenu">
-                <i class="fas fa-bars"></i>
-
-            </div> -->
-            <!-- category& filter -->
             <div class="main_catefil">
                 <div class="main_category">
                     <div class="text_title">DANH MỤC</div>

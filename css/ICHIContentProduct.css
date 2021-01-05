@@ -71,6 +71,10 @@ body
     font-size: large;
     color: khaki;
 }
+.main_catefil{
+    padding-top: 90px;
+    
+}
 .main_catefil_mob{
 padding-top: 90px;
 display:none;
@@ -92,7 +96,7 @@ display:none;
     text-align: center;
     height: 120px;
     background-color:rgb(255, 255, 255);
-    margin-right: 20%;
+    margin-right: 10%;
     margin-top:2%;
     font-weight: bold;
     z-index: 2;
@@ -114,9 +118,9 @@ display:none;
 .text_title{
     /* margin-left: 100px; */
     position: relative;
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     margin: 0 auto;
     color:#fff;
@@ -135,7 +139,7 @@ display:none;
   }
   .category_box{
      
-      width: 70%;
+      width: 75%;
       height: auto;
       margin: 30px auto;
       background-color: #fff;
@@ -161,7 +165,7 @@ display:none;
      padding: 15px;
     }
  .item .link{
-     width: 80%;
+     width: 70%;
      float: left;
      
    
@@ -172,7 +176,7 @@ display:none;
     color: black;
 }
  .item .icon{
-     width: 20%;
+     width: 18%;
      float: right;
  }
 
@@ -212,13 +216,14 @@ display:none;
  #angle_down {
     display: block;
     cursor: pointer;
+
  
 }
 .icon a{
     text-decoration: none;
 }
 .filter_box{
-    width: 70%;
+    width: 75%;
     height: auto;
     margin: 30px auto;
     background-color: #fff;
@@ -249,9 +254,9 @@ input{
     width: 320px;
     max-width: 100%;
     background-color: #fff;
-    transform: translateX(-100%);
+    /* transform: translateX(-100%); */
     opacity: 0;
-    display:none;
+    display:block;
     transition: all linear 0.3s;
     
 }
@@ -291,12 +296,12 @@ input{
     text-decoration: none;
 }
 /* END CSS FOR LIST PRODUCT */
-@media(max-width: 1500px)
+@media(max-width: 1600px)
 {
  
    
 }
-@media(max-width: 1025px)
+@media(max-width: 1090px)
 {
     .main_barmenu{
         display: block;
@@ -315,9 +320,9 @@ input{
     .menu_mobile{
         display:block;
     }
-    a{
-        font-size: 13px;
-    }
+   
+    
+    
     label{
         font-size: 13px;
         font-weight: bold;
@@ -348,9 +353,14 @@ input{
         border-radius: 10px;
         border:#b05555 1px solid; 
     }
-    .overlay{
-        /* display:block; */
+    .main_boxmenu {
+       
+        margin-right: 20%;
+        
     }
+    /* .overlay{
+        display:block;
+    } */
     /* START CSS FOR LIST PRODUCT */
     .boxItem{
         width: 33%;
@@ -445,12 +455,15 @@ input{
    }
    #iconbar{
    
-        margin:10px;
+        margin-left:30px;
         padding-top:60px;
         height: 80px;
         display:block;
         z-index: 9999;
         
+   }
+   .menu_mobile{
+       width: 300px;
    }
    
 }
@@ -488,6 +501,19 @@ input{
         font-size: 10px;
         
    }
+   .link a{
+    
+        font-size: 13px;
+   }
+   .filter_item label{
+       font-size: 10px;
+   }
+   input[type=checkbox] {
+    transform: scale(0.8);
+}
+    .img_box{
+      width: 0px;  
+    }
     
     /* START CSS FOR LIST PRODUCT */
     .boxItem{
@@ -517,6 +543,17 @@ input{
     .boxItem .linkProductDetail{
         text-decoration: none;
     }
+    li{
+        list-style: none;
+    }
+    li a{
+        font-size: 10px;
+    }
+    #angle_down{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    
     /* END CSS FOR LIST PRODUCT */
 }
 @media(max-width: 415px)
@@ -528,8 +565,8 @@ input{
         text-align: center;
         height: 70px;
         background-color:rgb(255, 255, 255);
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 0%;
+        margin-right: 0%;
         margin-top:2%;
     }
     p{
@@ -547,8 +584,9 @@ input{
     top:0;
     bottom:0;
     left: 0;
-    width: 375px;
-    height: 100vh;
+    width: 250px;
+    height
+    : 100vh;
     max-width: 100%;
     background-color: #fff;
     z-index: 2000;
@@ -570,10 +608,29 @@ input{
 }
 
 .img_box{
-   width: 30px;
+   width: 35px;
    max-width: 100%;
    height: auto; 
 }
+.text_title{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    font-size: smaller;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color:#fff;
+    font-weight: bold;
+    background: rgb(176, 85, 85);
+    z-index: 1000;
+  }
+  .link a{
+      font-size: 10px;
+  }
+  .link{
+
+  }
 } 
 
 @keyframes fadeIn {
