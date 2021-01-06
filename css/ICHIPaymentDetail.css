@@ -308,10 +308,8 @@ iframe{
         height: auto;
     }
     #right{
-      width: 80%;
-      position: absolute;
-      top: 0px;
-      left: 10%;
+      width: 90%;
+      margin-left: 5%;
       height: 410px;
       border-left: none;
   }
@@ -327,10 +325,8 @@ iframe{
       height: 150px;
   }
     #left {
-      width: 80%;
-      position: absolute;
-      left: 10%;
-      top: 430px;
+      width: 90%;
+      margin-left: 5%;
       height: 620px;
   }
     #left h3{
@@ -346,6 +342,7 @@ iframe{
       float: left;
       height: 350px;
       border-bottom: solid 1px gray;
+      margin-bottom: 10px;
   }
     #thongtin label{
       font-size: 15px;
@@ -383,13 +380,12 @@ iframe{
       left: 2px;
   }
     #left #thongtin{
-      padding-top: 0PX;
       height: 440px;
   }
     #thongtin label{
       font-size: 15px;
-  }
-  #thongtin #ship .btn #btn-res{
+    }
+    #thongtin #ship .btn #btn-res{
     display: block;
     background-color: hotpink;
 }
