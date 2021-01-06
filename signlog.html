@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp and Login</title>
+	<link rel="stylesheet" type="text/css" href="signlog.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container" id="container">
+<div class="form-container signup">
+
+<form action="">
+	<h1>ĐĂNG KÝ</h1>
+	<div class="icon">
+		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+		<a href="#" class="social"><i class="fa fa-google"></i></a>
+	</div>
+
+	<input type="text" name="name" placeholder="Họ và tên">
+	<input type="email" name="email" placeholder="Email">
+	<input type="password" name="password" placeholder="Mật khẩu">
+	<button>SignUp</button>
+</form>
+</div>
+<div class="form-container signin">
+	<form action="#">
+		<h1>ĐĂNG NHẬP</h1>
+		<div class="icon">
+		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+		<a href="#" class="social"><i class="fa fa-google"></i></a>
+	</div>
+
+	<input type="email" name="email" placeholder="Email">
+	<input type="password" name="password" placeholder="Mật khẩu">
+	<a href="#">Forgot Your Password</a>
+
+	<button>Sign In</button>
+	</form>
+</div>
+<div class="overlay-container">
+	<div class="overlay">
+		<div class="panel overlay-left">
+			<h1>Welcome Back!</h1>
+			<p>Nếu bạn đã có tài khoản <br> Đăng nhập tài khoản tại đây</p>
+			<button class="ghost" id="signIn">Sign In</button>
+		</div>
+		<div class="panel overlay-right">
+			<h1>Hello, Friend!</h1>
+			<p>Chào mừng bạn đến với ICHI</p>
+			<button class="ghost" id="signUp">Sign Up</button>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	const signUpButton = document.getElementById('signUp');
+	const signInButton = document.getElementById('signIn');
+	const container = document.getElementById('container');
+
+	signUpButton.addEventListener('click', () => {
+		container.classList.add("right-panel-active");
+	});
+	signInButton.addEventListener('click', () => {
+		container.classList.remove("right-panel-active");
+	});
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
