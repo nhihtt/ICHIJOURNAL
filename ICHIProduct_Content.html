@@ -207,9 +207,6 @@
             <label  for="input_mobile" class="overlay">
 
             </label>
-            
-             
-
             <div class="main_boxmenu">
                 <div class="box" id="menuSo" ng-click="category('Sổ')">
                     <a href=""><img class="img_box" src="css/image/untitled-1-01.jpg" alt=""></a>
@@ -232,7 +229,6 @@
                     <p>Planner 2021</p>
                 </div>   
             </div>
-
         </div>
         <div class="mainLeftRight">
             <div class="mainLeft">
@@ -372,6 +368,9 @@
             </div>
             <div class="mainRight" ng-app="productApp" ng-controller="productController">
                 <div class="boxItem" ng-repeat="pd in products|limitTo:20|filterCategory">
+                    <div class="gio" >
+                        <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
+                    </div>
                     <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank">
                         <div class="imgBox">
                             <img class="imgProduct" src="{{pd.Picture}}" alt="">
