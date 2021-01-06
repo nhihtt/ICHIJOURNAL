@@ -18,7 +18,7 @@ body
 #logo{
     width: 100%;
     height: 75%;
-    float: right;
+    /* float: right; */
 }
 #menu{
     height: 25%;
@@ -32,6 +32,7 @@ body
     height: 25%;
     margin-left: auto;
     text-align: center;
+    display: none;
 }
 /* END CSS CONTAINER */
     /* START CSS LOGO */
@@ -106,7 +107,7 @@ body
                 padding: 5px 8px;
                 font-size: 8px;
                 top: 30px;
-                right:70px;
+                right:90px;
                 font-family:'Montserrat', sans-serif;
             }
             #badge:hover{
@@ -161,9 +162,11 @@ body
     min-width: 20px;
     text-align: center;
     position: absolute;
+    display: none;
     }
     #search #input 
     {
+    display: none;
     float: left;
     width: 75%;
     height: 80%;
@@ -183,20 +186,20 @@ body
     /* END CSS SEARCH */
 
 /* START CSS RESPONSIVE */
-@media(max-width: 2000px)
+@media(max-width: 1500px)
 {
-    #hambergur
+    #logo #hambergur
     {
         display: none;
     }
-    #search{
+    #container #search{
         display: none;
     }
 }
 
-@media(max-width: 1090px)
+@media(max-width: 1000px)
 {
-    #hambergur
+    #logo #hambergur
     {
         display: block;
     }
@@ -207,18 +210,21 @@ body
     #user .fa-search{
         display: none;
     }
-    #search
+    #container #search
     {
         display: block;
         margin-left: 5%;
     }
-    #input{
+    #search #input{
         width: 800px;
+    }
+    #user #search1{
+       display: none;
     }
 }
 @media(max-width: 600px)
 {
-    #hambergur
+    #logo #hambergur
     {
         display: block;
         font-size: 22px;
@@ -227,7 +233,7 @@ body
     #user .userIcon{
         font-size: 15px;
     }
-    #user{
+    #logo #user{
         padding-right: 3px;
     }
     #container{
@@ -256,7 +262,10 @@ body
     #user .fa-search{
         display: none;
     }
-    #search
+    #user #search1{
+        display: none;
+     }
+    #container #search
     {
         display: block;
         margin-left: 0px;
