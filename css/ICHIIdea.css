@@ -74,7 +74,7 @@ iframe{
     background-color: var(--mainColor3);
 }
 #expense .line{
-    background-color: var(--mainColor2);
+    background-color: var(--mainColor4);
 }
 #mood .line{
     background-color: var(--mainColor1);
@@ -110,7 +110,10 @@ iframe{
     .content .nhomIdea .listImg .storeImg{
         height: 280px;
     }
-
+    .content .line{
+        height: 26px;
+        width: 320px;
+    }
 }
 @media(max-width: 500px)
 {
@@ -119,6 +122,10 @@ iframe{
     }
     .content .nhomIdea .listImg .storeImg{
         height: 220px;
+    }
+    .content .line{
+        height: 24px;
+        width: 310px;
     }
 
 }

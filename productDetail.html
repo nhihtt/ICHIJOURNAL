@@ -70,7 +70,7 @@
                 var output=[]
                 angular.forEach(input,function(item){
                     if(item.category==category){
-                        if(item.id<id){
+                        if(item.id!=id){
                             output.push(item)
                         }
                         

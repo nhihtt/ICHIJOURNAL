@@ -39,12 +39,23 @@
             return output
             }
         })
+        app.filter('filterSanPhamBanChay',function(){
+            return function(input){
+                var output=[]
+                angular.forEach(input,function(item){
+                    if(item.banchay==1){
+                        output.push(item)
+                    }
+                })
+                return output
+            }
+        })
     </script>
     
 </head>
 <body>
     <div class="container" ng-app="productApp" ng-controller="productController">
-        <div class="boxItem" ng-repeat="pd in products|limitTo:20|filterCategory">
+        <div class="boxItem" ng-repeat="pd in products|filterSanPhamBanChay|limitTo:20">
             <div class="gio" >
                 <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
             </div>
