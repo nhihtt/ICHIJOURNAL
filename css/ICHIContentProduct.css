@@ -302,6 +302,14 @@ input{
     float: left;
     text-align: center;
 }
+.boxItem .gio{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 10px;
+    z-index: 100;
+    color: var(--mainColor2);
+    font-size: 18px;
+}
 .boxItem .imgBox{
     margin-left: 5%;
     width: 90%;
@@ -423,6 +431,11 @@ input{
         width: 18%;
         height: 270px;
         margin:0
+    }
+    .boxItem .gio{
+        margin-left: 18%;
+        margin-top: 8px;
+        font-size: 17px;
     }
     .boxItem .imgBox{
         margin: 0;
@@ -584,6 +597,11 @@ input{
         width: 50%;
         height: 220px;
         margin:0;
+    }
+    .boxItem .gio{
+        margin-left: 35%;
+        margin-top: 6px;
+        font-size: 15px;
     }
     .boxItem .imgBox{
         margin: 0;

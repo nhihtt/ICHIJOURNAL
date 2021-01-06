@@ -95,18 +95,20 @@
             <div class="nhomSP">
                 <h2>SẢN PHẨM BÁN CHẠY</h2>
                 <div class="boxItem" ng-repeat="pd in products|filterSanPhamBanChay|limitTo:5" >
-                   
-                    <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank">
-                        <div class="imgBox">
-                            <img class="imgProduct" src="{{pd.Picture}}" alt="">
-                            <div class="gio" onclick="hienPopup()">
-                                <i class="fas fa-shopping-cart addedToCart"></i>
-                            </div>
+                    <div class="boxProduct">
+                        <div class="gio" >
+                            <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
                         </div>
-                        <div class="nameProduct">{{pd.name}}</div><br>
-                        <div class="priceProduct">{{pd.Price}} VNĐ</div>
-                    </a>
-
+                        <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank">
+                            <div class="imgBox">
+                                <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                            </div>
+                            <div class="nameProduct">{{pd.name}}</div><br>
+                            <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                        </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
             <div class="banner">
@@ -115,18 +117,19 @@
             <div class="nhomSP">
                 <h2>COMBO SẢN PHẨM</h2>
                 <div class="boxItem" ng-repeat="pd in products|filterCategory:'combo'|limitTo:5">
-                    
-                    
-                    <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank" >
-                        <div class="imgBox">
-                            <img class="imgProduct" src="{{pd.Picture}}" alt="">
-                            <div class="gio" onclick="hienPopup()">
-                                <i class="fas fa-shopping-cart addedToCart"></i>
-                            </div>
+                    <div class="boxProduct">
+                        <div class="gio" >
+                            <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
                         </div>
-                        <div class="nameProduct">{{pd.name}}</div><br>
-                        <div class="priceProduct">{{pd.Price}} VNĐ</div>
-                    </a>
+                        <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank" >
+                            <div class="imgBox">
+                                <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                            </div>
+                            <div class="nameProduct">{{pd.name}}</div><br>
+                            <div class="priceProduct">{{pd.Price}} VNĐ</div>
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
