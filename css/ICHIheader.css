@@ -107,7 +107,7 @@ body
                 padding: 5px 8px;
                 font-size: 8px;
                 top: 30px;
-                right:90px;
+                right:190px;
                 font-family:'Montserrat', sans-serif;
             }
             #badge:hover{
@@ -186,6 +186,7 @@ body
     /* END CSS SEARCH */
 
 /* START CSS RESPONSIVE */
+
 @media(max-width: 1500px)
 {
     #logo #hambergur
@@ -194,6 +195,9 @@ body
     }
     #container #search{
         display: none;
+    }
+    #user #badge{
+        right: 70px;
     }
 }
 
@@ -222,6 +226,11 @@ body
        display: none;
     }
 }
+@media(max-width:800px){
+    #user #badge{
+        right: 180px;
+    }
+}
 @media(max-width: 600px)
 {
     #logo #hambergur
@@ -240,10 +249,10 @@ body
         background-size: 125px;
         background-position: center 20px;
     }
-    #badge
+    #user #badge
 {
     top: 25px;
-    right:52px;
+    right:83px;
     font-size: 5px;
     margin: 0;
 }
