@@ -1,8 +1,25 @@
+html{
+    position: relative;
+}
 :root{
     --mainColor1: #f3c623;
     --mainColor2: #095058;
     --mainColor3: #f6eec7;
     --mainColor4: #a4d4ae;
+}
+#popup{
+    width: 700px;
+    border: solid gray 1px;
+    float: left;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background-color: white;
+    display: none;
+    border-radius: 5px;
 }
 .wrap{
     width: 100%;
@@ -36,6 +53,14 @@ h2{
     height: 380px;
     float: left;
 }
+.boxItem .gio{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 10px;
+    z-index: 100;
+    color: var(--mainColor2);
+    font-size: 18px;
+}
 .boxItem .imgBox{
     margin: 5% 5% 5% 5%;
     width: 90%;
@@ -45,12 +70,6 @@ h2{
 .boxItem .imgBox .imgProduct{
     width: 100%;
     height: 90%;
-}
-.imgBox  .gio{
-    position: absolute;
-    bottom: 10px;
-    width: 250px;
-    display: none;
 }
 .boxItem .nameProduct{
     font-size: 14px;
@@ -62,8 +81,181 @@ h2{
 }
 .boxItem .linkProductDetail{
     text-decoration: none;
+    z-index: 0;
 }
-@media(max-width: 2000px)
+/* START POPUP CSS */
+.canle{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+#pop_title{
+width: 100%;
+float: left;
+border-bottom: var(--mainColor2);
+margin-bottom: 5px;
+height: 35px;
+background-color: var(--mainColor4);
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+border-radius: 5px 5px 0 0;
+}
+#pop_detail{
+width: 100%;
+float: left;
+height: 250px;
+border-bottom: black solid 1px;
+margin-bottom: 5px;
+box-sizing: border-box;
+}
+#pop_total{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+float: left;
+height: 30px;
+line-height: 30px;
+font-size: 14px;
+}
+#pop_btn{
+width: 100%;
+float: left;
+text-align: right;
+line-height: 45px;
+height: 45px;
+margin-bottom: 10px;
+}
+    /* START POPUP TITLE */
+    #text{
+        padding-top: 2px;
+        width: 95%;
+        float: left;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    #thoat{
+        padding-top: 3px;
+        width: 5%;
+        float: left;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 5px 5px 5px 5px;
+    }
+    /* END POPUP TITLE */
+    
+    /* START POP UP DETAIL */
+    .item{
+        height: 90px;
+        width: 96%;
+        margin-left: 2%;
+        float: left;
+        border-bottom:1px solid var(--mainColor2);
+    }
+    .item .hinh{
+        width: 20%;
+        float: left;
+    }
+    .item .hinh img{
+       
+        width: 90px;
+        height:90px;
+    }
+    .item .mieuta{
+        padding-top: 25px;
+        width: 40%;
+        float: left;
+    }
+    .item .mieuta .tenSP{
+        font-size: 14px;
+        color: var(--mainColor2);
+    }
+    .item .mieuta .giaSP{
+        font-size: 16px;
+        color: var(--mainColor1);
+    }
+    .item .soluong{
+        padding-top: 25px;
+        width: 20%;
+        float: left;
+    }
+    .item .soluong input{
+        text-align: center;
+        width: 35px;
+        height: 25px;
+    }
+    .item .thanhtien{
+        padding-top: 30px;
+    }
+    /* END POP UP DETAIL */
+
+    /* START PUP UP TOTAL */
+        
+    #total_left{
+    width: 50%;
+    text-align: left;
+    float: left;
+    }
+    #total_right{
+    width: 50%;
+    text-align: right;
+    float: left;
+    }
+    .bold{
+    font-weight: bold;
+    }
+    #tongSP{
+        color: rgb(133, 132, 132);
+    }
+    #tongtien{
+        font-size: 22px;
+        color: var(--mainColor2);
+    }     
+    /* END PUP UP TOTAL */
+
+    /* START POP UP BTN */
+    #pop_btn input{
+        padding-right: 20px;
+        height: 35px;
+        border-radius: 5px 5px 5px 5px;
+        border: rgb(224, 222, 222);
+    }
+    /* #popup_btn input:hover{
+        background-color: rgb(245, 151, 10);
+    } */
+    #btn-giohang{
+        width: 100px;
+        background-color:var(--mainColor3);
+        color: black;
+        border-radius: 5px 5px 5px 5px;
+        margin-right: 20px;
+    }
+    #btn-giohang:hover{
+        background-color: rgb(245, 151, 10);
+    }
+    #btn-thanhtoan{
+        width: 200px;
+        background-color: var(--mainColor1);
+        color: black;
+    }
+    #btn-thanhtoan:hover{
+        background-color: rgb(245, 151, 10);
+    }
+    #btn-phone{
+        display: none;
+        width: 100px;
+        background-color: rgb(170, 168, 168);
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        border: rgb(224, 222, 222);
+        margin-right: 20px;
+    }
+    #btn-phone:hover{
+        background-color: rgb(245, 151, 10);
+    }
+    /* END POP UP BTN */
+/* END POPUP CSS */
+@media(max-width: 1500px)
 {
 
     .boxItem{
@@ -76,6 +268,9 @@ h2{
         width: 90%;
         height: 240px;
         border-radius: 10px;
+    }
+    .imgBox  .gio{
+        bottom: 15px;
     }
     .boxItem .imgBox .imgProduct{
     
@@ -96,7 +291,7 @@ h2{
         font-size: 25px;
     }
 }
-@media(max-width: 1090px){
+@media(max-width: 1200px){
    
     .boxItem{
         width: 25%;
@@ -108,6 +303,11 @@ h2{
         width: 90%;
         height: 160px;
         border-radius: 10px;
+    }
+    .boxItem .gio{
+        margin-left: 18%;
+        margin-top: 8px;
+        font-size: 17px;
     }
     .boxItem .imgBox .imgProduct{
     
@@ -138,6 +338,11 @@ h2{
         width: 90%;
         height: 120px;
         border-radius: 10px;
+    }
+    .boxItem .gio{
+        margin-left: 35%;
+        margin-top: 6px;
+        font-size: 15px;
     }
     .boxItem .imgBox .imgProduct{
     
