@@ -65,8 +65,8 @@
                     <span>Thanh toán khi giao hàng (COD) </span>
                 </div>
                 <div class="btn" id="btn-res">
-                    <input type="button" value="Tiếp tục mua hàng">
-                    <input type="button" value="Đặt hàng">
+                    <input type="button" value="Tiếp tục mua hàng" onclick="tieptuc()">
+                    <input type="button" value="Đặt hàng" onclick="dathang()">
                 </div>
             </div>
            <div id="chinhsach">
@@ -96,10 +96,18 @@
                 <span>Tổng cộng</span> <span class="cantrai">X.XXX.000đ</span> 
             </div>
             <div class="btn" id="btn-lap">
-                <input type="button" value="Tiếp tục mua hàng">
-                <input type="button" value="Đặt hàng">
+                <input type="button" value="Tiếp tục mua hàng" onclick="tieptuc()">
+                <input type="button" value="Đặt hàng" onclick="dathang()">
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        function tieptuc(){
+            location.assign("/ICHIProduct_Content.html")
+        }
+        function dathang(){
+            alert("Bạn đã đặt hàng thành công")
+        }
+    </script>
 </body>
 </html>
