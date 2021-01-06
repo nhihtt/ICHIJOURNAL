@@ -18,7 +18,7 @@ body
 #logo{
     width: 100%;
     height: 75%;
-    float: left;
+    float: right;
 }
 #menu{
     height: 25%;
@@ -47,7 +47,6 @@ body
                 font-size: 30px;
                 display: block;
             }
-            
             #menu-content{
                 display: none;
                 background-color: white;
@@ -63,28 +62,36 @@ body
                 font-family:'Montserrat', sans-serif;
             }
             /* END CSS DROPDOWN */
-    #user{
-        align-items: right;
-        width: 5%;
+    #logo #user{
+        width: 30%;
         float: right;
-        text-align: right;
          padding-top: 20px;
-         margin-right: 50px;
-        display: flex;
+        display: inline-flex;
     }
             /* START CSS USER */
             #user .fa-search{
                 font-size: 25px;
+                float: right;
             }
             #user .fa-search:hover{
                 transform: scale(1.25);
                 transition: all ease-in-out 0.5s;
+            }
+            #user #search1{
+                width: 200px;
+                float: right;
+            }
+            #user #search1 input{
+                height: 20px;
+                border-radius: 5px;
+                float: right;
             }
             #user .addedToCart
             {
                 font-size: 1.5em;
                 margin-right: 25px;
                 margin-left: 25px;
+                float: right;
             }
             #user .addedToCart:hover{
                 transform: scale(1.25);
@@ -113,6 +120,8 @@ body
             #user .userIcon
             {
                 font-size: 25px;
+                margin-right: 0px;
+                float: right;
             }
             #user .userIcon:hover{
                 transform: scale(1.25);
