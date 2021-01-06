@@ -8,7 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/ICHIProduct_List.css">
     <script>
-        var category="Sổ"
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+                function(m, key, value) {
+                    vars[key] = value;
+                });
+            return vars;
+        }
+        var category=unescape(getUrlVars()["category"]);
+        category="Sổ"
         var app= angular.module("productApp", [])
         app.controller('productController', function ($scope, $http) {
             $http({
@@ -16,9 +25,7 @@
                 url:"/json/product.json"
             }) .then(function mySucces(respone){
                 $scope.products=respone.data
-                $scope.category=function(ct){
-                    category=ct
-                }
+                
             })
         })
         app.filter('filterCategory',function(){

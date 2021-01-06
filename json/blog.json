@@ -100,11 +100,7 @@
         "category":"expense",
         "picture":"/json/blog/expense/expense4.jpg"
     },
-    {
-        "id": "20",
-        "category":"expense",
-        "picture":"/json/blog/expense/expense5.jpg"
-    },
+    
     {
         "id": "21",
         "category":"mood",

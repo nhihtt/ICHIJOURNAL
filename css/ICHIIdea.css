@@ -1,0 +1,124 @@
+:root{
+    --mainColor1: #f3c623;
+    --mainColor2: #095058;
+    --mainColor3: #f6eec7;
+    --mainColor4: #a4d4ae;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
+.wrap{
+    width: 100vw;
+    margin: 0;
+    height: auto;
+}
+.header{
+    width: 90%;
+    margin-right: 5%;
+}
+.footer{
+    width: 100%;
+}
+.banner{
+    width: 90%;
+    margin-left: 5%;
+    height: 250px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+}
+.content{
+    width: 90%;
+    margin-left: 5%;
+}
+.content .nhomIdea{
+    width: 100%;
+    float: left;
+}
+.content h2{
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.content .line{
+    height: 30px;
+    width: 400px;
+    z-index: 0;
+    margin:auto;
+    margin-top: -40px;
+    background-color: var(--mainColor3);
+    margin-bottom: 10px;
+}
+.content .nhomIdea .listImg{
+    width: 25%;
+    float: left;
+}
+.content .nhomIdea .listImg .storeImg{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+.content .nhomIdea .listImg .storeImg img{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;   
+}
+#plan .line{
+    background-color: var(--mainColor4);
+}
+#habit .line{
+    background-color: var(--mainColor3);
+}
+#expense .line{
+    background-color: var(--mainColor2);
+}
+#mood .line{
+    background-color: var(--mainColor1);
+}
+#lightbox {
+    display: none; 
+    position: fixed; 
+    z-index: 99; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px; 
+    background-color: rgba(0,0,0,0.8); 
+}
+#image-placeholder {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+#close-icon {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 50px;
+}
+
+@media(max-width: 1090px){
+    .content .nhomIdea .listImg{
+        width: 33%;
+    }
+    .content .nhomIdea .listImg .storeImg{
+        height: 280px;
+    }
+
+}
+@media(max-width: 500px)
+{
+    .content .nhomIdea .listImg{
+        width: 50%;
+    }
+    .content .nhomIdea .listImg .storeImg{
+        height: 220px;
+    }
+
+}

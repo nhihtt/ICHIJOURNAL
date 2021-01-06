@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/css/ICHIContentProduct.css">
     <script src="/js/angular.min.js"></script>
     <script>
-        
         var dp=0
         var category="Sổ"
         function Appear(vt){
@@ -24,6 +23,17 @@
                 dp=0
             }   
         }
+        var app= angular.module("filterApp", [])
+        app.controller('filterController', function ($scope, $http) {
+            $http({
+                method:"GET",
+                url:"/json/product.json"
+            }) .then(function mySucces(respone){
+                $scope.category=function(cate){
+                    $scope.categoryPD=cate
+                }
+            })
+        })
     </script>
     <script>
         function resizeIframe(obj) {
@@ -32,7 +42,7 @@
     </script>
 </head>
 <body>
-    <div class="mainContainer">
+    <div class="mainContainer" ng-app="filterApp" ng-controller="filterController">
         <div class="mainTop">
             <div class="menu_bar">
                 <label  for="input_mobile" class="main_barmenu">
@@ -53,7 +63,7 @@
                             <div class="category_box_mob">
                                 <div class="category_boxitem">
         
-                                    <div class="item">
+                                    <div class="item" ng-click="category('Sổ')">
                                         <div class="itemlink">
                                             <div class="link">
                                                 <a class="category_link" href="">Sổ tay</a>
@@ -72,7 +82,7 @@
                                         </div>
                                     </div>
                                     <!--  -->
-                                    <div class="item">
+                                    <div class="item" ng-click="category('Vở')">
                                         <div class="itemlink">
                                             <div class="link">
                                                 <a class="category_link" href="">Vở viết</a>
@@ -92,7 +102,7 @@
                                         </div>
                                     </div>
                                     <!--  -->
-                                    <div class="item">
+                                    <div class="item" ng-click="category('PhuKien')">
                                         <div class="itemlink">
                                             <div class="link">
                                                 <a class="category_link" href="">Phụ kiện</a>
@@ -111,7 +121,7 @@
                                         </div>
                                     </div>
                                     <!--  -->
-                                    <div class="item">
+                                    <div class="item" ng-click="category('gift')">
                                         <div class="itemlink">
                                             <div class="link">
                                                 <a class="category_link" href="">Gift box</a>
@@ -131,7 +141,7 @@
                                         </div>
                                     </div>
                                     <!--  -->
-                                    <div class="item">
+                                    <div class="item" ng-click="category('planner')">
                                         <div class="itemlink">
                                             <div class="link">
                                                 <a class="category_link" href="">Planner 2021</a>
@@ -186,24 +196,24 @@
             <label  for="input_mobile" class="overlay">
 
             </label>
-            <div class="main_boxmenu">
+            <div class="main_boxmenu" >
                 <div class="box" id="menuSo" ng-click="category('Sổ')">
                     <a href=""><img class="img_box" src="css/image/untitled-1-01.jpg" alt=""></a>
                     <p >Sổ tay</p>
                 </div>
-                <div class="box" id="menuVo" ng-click="category('Sổ')">
+                <div class="box" id="menuVo" ng-click="category('Vở')">
                     <a href=""><img class="img_box" src="css/image/untitled2-01.jpg" alt=""></a>
                     <p>Vở viết</p>
                 </div>
-                <div class="box"id="menuPhuKien" >
+                <div class="box"id="menuPhuKien" ng-click="category('PhuKien')" >
                     <a href=""><img class="img_box" src="css/image/untitled-3-01.png" alt=""></a>
                     <p>Phụ kiện</p>
                 </div>
-                <div class="box" id="menuCombo" >
+                <div class="box" id="menuCombo" ng-click="category('combo')">
                     <a href=""><img class="img_box" src="css/image/untitled-4-02.jpg" alt=""></a>
                     <p>Combo</p>
                 </div>
-                <div class="box"id="menuPlanner" >
+                <div class="box"id="menuPlanner" ng-click="category('planner')">
                     <a href=""><img class="img_box" src="css/image/untitled6-01.png" alt=""></a>
                     <p>Planner 2021</p>
                 </div>   
@@ -346,7 +356,7 @@
 
             </div>
             <div class="mainRight">
-                <iframe src="ICHIProduct_List.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
+                <iframe src="ICHIProduct_List.html?category={{categoryPD}}?sub={{}}?gia={{}}" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
             </div>
         </div>
     </div>
