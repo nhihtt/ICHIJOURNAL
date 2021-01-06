@@ -80,6 +80,11 @@
             }
         })
 
+        function getImg(src){
+            var preview=document.getElementsById("imgPreview");
+            preview.src=src;
+        }
+
     </script>
     <script >
         function resizeIframe(obj) {
@@ -148,12 +153,12 @@
             <div id="content" ng-repeat="pd in products|filterProduct:idproduct">
                 <div id="image">
                 <div id="main">
-                    <img src="{{pd.Picture}}" alt="">
+                    <img id="imgPreview" src="{{pd.Picture}}" alt="">
                 </div>
                 <div id="slide">
                     <div class="boxPhoto" ng-repeat="pt in photos(pd)" ng-click="changeURL(pt)">
                         <div class="storePhoto">
-                            <img src="{{pt}}" alt="">
+                            <img src="{{pt}}" alt="" onclick="getImg(this.src)" >
                         </div>
                     </div>
                 </div>
