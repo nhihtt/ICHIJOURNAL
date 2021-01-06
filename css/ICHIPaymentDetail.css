@@ -15,7 +15,7 @@ iframe{
 }
 #container{
     width: 100%;
-    height: 700px;
+    height: 900px;
     margin-top: 20px;
    margin-left: 7%;
    float: left;
@@ -23,7 +23,7 @@ iframe{
 #left{
     width: 50%;
     float: left;
-    
+    height: auto;
 }
 #right{
     height: 700px;
@@ -46,46 +46,54 @@ iframe{
         background-color: indianred;
         color: white;
     }
+    .btn input:HOVER{
+    background-color: rgb(245, 151, 10);
+    }
     #thongtin{
         width: 50%;
         float: left;
         margin-right: 10px;
         padding-top: 10px;
     }
-        /* START THONGTIN CSS */
-        #thongtin #bold{
+            /* START THONGTIN CSS */
+            #thongtin #bold{
             font-weight: bold;
-        }
-        #left #thongtin .cantrai{
+            }
+            #left #thongtin .cantrai{
             float: right;
-        }
-        #thongtin .form-tt{
+            }
+            #thongtin .form-tt{
             width: 90%;
             margin: 15px 0px 10px 10px;
             height: 23px;
-        }
-        /* END THONGTIN CSS */
+            }
+            /* END THONGTIN CSS */
     #ship{
         width: 45%;
         float: left;
         padding-bottom: 20px;
     }
-        /* START SHIP CSS */
-        #ship .fee{
+            /* START SHIP CSS */
+            #ship .fee{
             height: 50px;
-            /* background-color: lightyellow; */
             width: 95%;
             line-height: 50px;
             padding: 0px 5px 0px 5px;
             margin-left: auto;
             margin-right: auto;
             border: solid gray 1px;
-        }
-        #btn-res{
+            }
+            #ship #btn-res{
             display: none;
             margin-top: 10px;
-        }
-        /* END SHIP CSS */
+            }
+            #ship #btn-res:active{
+            background-color: rgb(245, 151, 10);
+            }
+            #fee .cantrai{
+            text-align: right;
+            }
+            /* END SHIP CSS */
     #chinhsach{
         width: 100%;
         height: 70px;
@@ -98,7 +106,7 @@ iframe{
     #chinhsach a{
         margin-left: 15px;
     }
-        /* END LEFT CSS */
+    /* END LEFT CSS */
 
     /* START RIGHT CSS */
     #tit-donhang{
@@ -140,11 +148,13 @@ iframe{
                 height: 30px;
                 width: 20%;
             }
+            #voucher #btnApdung:hover{
+                background-color: rgb(245, 151, 10);
+            }
             /* END VOUCHER CSS */
     #tamtinh{
         width: 97%;
         height: 50px;
-        /* background-color: white; */
         line-height: 25px;
         margin-left: auto;
         margin-right: auto;
@@ -158,7 +168,6 @@ iframe{
     #total{
         width: 97%;
         height: 30px;
-        /* background-color: white; */
         line-height: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -170,12 +179,8 @@ iframe{
     }
       /* END RIGHT CSS */
 
-@media(max-width: 1700px){
-    #right h3{
-        display: none;
-    }
-}
-@media(max-width: 1200px){
+    /* START RESPONSIVE CSS */
+@media(max-width: 1500px){
     #right h3{
         display: none;
     }
@@ -184,6 +189,7 @@ iframe{
     }
     #left{
         width:45%;
+        margin-bottom: 15px;
     }
     #bold{
         font-size: 15px;
@@ -193,15 +199,15 @@ iframe{
         height: 100vh;
     }
     #thongtin{
-        height: 70vh;
+        height: 70%;
     }
     #thongtin option{
         font-size: 15px;
     }
-    .form-tt{
+    #thongtin .form-tt{
         width: 95%;
         margin: 10px 0px 10px 10px;
-        height: 30px;
+        height: 25px;
     }
     #ship{
         height: 50vh;
@@ -223,7 +229,7 @@ iframe{
     #container{
         height: auto;
     }
-  #right{
+    #right{
       width: 80%;
       position: absolute;
       top: 0px;
@@ -231,107 +237,71 @@ iframe{
       height: 410px;
       border-left: none;
   }
-  .form-tt{
+    #thongtin .form-tt{
     width: 90%;
-    margin: 10px 0px 10px 10px;
+    margin: 7px 0px 7px 10px;
     height: 23px;
 }
-  #detail{
+    #detail{
       height: 150px;
   }
-  #left {
+    #left {
       width: 80%;
       position: absolute;
       left: 10%;
       top: 430px;
       height: 600px;
   }
-  #left h3{
+    #left h3{
       display: none;
   }
-  #right h3{
+    #right h3{
       display: block;
       text-align: center;
       margin-top: 10px;
   }
-  #left #thongtin{
+    #left #thongtin{
       width: 100%;
       float: left;
       height: 490px;
       border-bottom: solid 1px gray;
   }
-  #thongtin label{
+    #thongtin label{
       font-size: 15px;
   }
-  #left #ship{
+    #left #ship{
     width: 100%;
     float: left;
     height: 230px;
 }
-#btn-lap{
+    #btn-lap{
     display: none;
 }
-#btn-res{
+    #btn-res{
     display: block;
 }
 }
 @media(max-width: 500px){
-    #container{
-        height: auto;
-    }
-  #right{
+    #right{
       width: 98%;
-      position: absolute;
-      top: 0px;
       left: 2px;
       height: 400px;
-      border-left: none;
   }
-  .form-tt{
-    width: 90%;
-    margin: 10px 0px 10px 10px;
-    height: 23px;
+    #thongtin .form-tt{
+    margin: 5px 0px 5px 10px;
 }
-  #detail{
-      height: 150px;
-  }
-  #left {
+    #left {
       width: 98%;
-      position: absolute;
       left: 2px;
-      top: 430px;
-      height: 600px;
   }
-  #left h3{
-      display: none;
-  }
-  #right h3{
-      display: block;
-      text-align: center;
-      margin-top: 10px;
-  }
-  #left #thongtin{
+    #left #thongtin{
       padding-top: 0PX;
-      width: 100%;
-      float: left;
-      height: 490px;
-      border-bottom: solid 1px gray;
+      height: 440px;
   }
-  #thongtin label{
+    #thongtin label{
       font-size: 15px;
   }
-  #left #ship{
-    width: 100%;
-    float: left;
-    height: 230px;
-}
-#btn-lap{
-    display: none;
-}
-#btn-res{
-    display: block;
-}
-#btn-res input{
+    #btn-res input{
     font-size: 13px;
     width: 120px;
     margin-left: 5px;
