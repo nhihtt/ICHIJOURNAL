@@ -7,6 +7,7 @@
         "Picture":"/json/hinhanh/sotay/1.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -21,6 +22,7 @@
         "Picture":"/json/hinhanh/sotay/2.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/2.jpg",
             "/json/hinhanh/sotay/3.jpg",
@@ -35,6 +37,7 @@
         "Picture":"/json/hinhanh/sotay/3.jpg",
         "Price":59000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/3.jpg",
             "/json/hinhanh/sotay/4.jpg",
@@ -49,6 +52,7 @@
         "Picture":"/json/hinhanh/sotay/4.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/4.jpg",
             "/json/hinhanh/sotay/5.jpg",
@@ -63,6 +67,7 @@
         "Picture":"/json/hinhanh/sotay/5.jpg",
         "Price":79000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/5.jpg",
             "/json/hinhanh/sotay/6.jpg",
@@ -77,6 +82,7 @@
         "Picture":"/json/hinhanh/sotay/6.jpg",
         "Price":89000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -91,6 +97,7 @@
         "Picture":"/json/hinhanh/sotay/7.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -104,6 +111,7 @@
         "sub-category":"soDot",
         "Picture":"/json/hinhanh/sotay/8.jpg",
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -118,6 +126,7 @@
         "Picture":"/json/hinhanh/sotay/9.jpg",
         "Price":79000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -132,6 +141,7 @@
         "Picture":"/json/hinhanh/sotay/10.jpg",
         "Price":49000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -146,6 +156,7 @@
         "Picture":"/json/hinhanh/sotay/11.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -160,6 +171,7 @@
         "Picture":"/json/hinhanh/sotay/12.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -174,6 +186,7 @@
         "Picture":"/json/hinhanh/sotay/13.jpg",
         "Price":59000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -188,6 +201,7 @@
         "Picture":"/json/hinhanh/sotay/14.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -202,6 +216,7 @@
         "Picture":"/json/hinhanh/sotay/15.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -216,6 +231,7 @@
         "Picture":"/json/hinhanh/sotay/16.jpg",
         "Price":69000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -230,6 +246,7 @@
         "Picture":"/json/hinhanh/sotay/17.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -244,6 +261,7 @@
         "Picture":"/json/hinhanh/sotay/18.jpg",
         "Price":89000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -258,6 +276,7 @@
         "Picture":"/json/hinhanh/sotay/19.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/1.jpg",
             "/json/hinhanh/sotay/2.jpg",
@@ -272,6 +291,7 @@
         "Picture":"/json/hinhanh/sotay/20.jpg",
         "Price":89000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/20.jpg",
@@ -286,6 +306,7 @@
         "Picture":"/json/hinhanh/sotay/21.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -300,6 +321,7 @@
         "Picture":"/json/hinhanh/sotay/22.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -314,6 +336,7 @@
         "Picture":"/json/hinhanh/sotay/23.jpg",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -328,6 +351,7 @@
         "Picture":"/json/hinhanh/sotay/24.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -342,6 +366,7 @@
         "Picture":"/json/hinhanh/sotay/25.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -356,6 +381,7 @@
         "Picture":"/json/hinhanh/sotay/26.jpg",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -370,6 +396,7 @@
         "Picture":"/json/hinhanh/sotay/27.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -384,6 +411,7 @@
         "Picture":"/json/hinhanh/sotay/28.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -398,6 +426,7 @@
         "Picture":"/json/hinhanh/sotay/29.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -412,6 +441,7 @@
         "Picture":"/json/hinhanh/sotay/30.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/21.jpg",
             "/json/hinhanh/sotay/22.jpg",
@@ -426,6 +456,7 @@
         "Picture":"/json/hinhanh/sotay/31.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -440,6 +471,7 @@
         "Picture":"/json/hinhanh/sotay/32.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -454,6 +486,7 @@
         "Picture":"/json/hinhanh/sotay/33.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -468,6 +501,7 @@
         "Picture":"/json/hinhanh/sotay/34.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -482,6 +516,7 @@
         "Picture":"/json/hinhanh/sotay/35.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -496,6 +531,7 @@
         "Picture":"/json/hinhanh/sotay/36.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -510,6 +546,7 @@
         "Picture":"/json/hinhanh/sotay/37.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -524,6 +561,7 @@
         "Picture":"/json/hinhanh/sotay/38.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -538,6 +576,7 @@
         "Picture":"/json/hinhanh/sotay/39.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -552,6 +591,7 @@
         "Picture":"/json/hinhanh/sotay/39.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -566,6 +606,7 @@
         "Picture":"/json/hinhanh/sotay/41.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/31.jpg",
             "/json/hinhanh/sotay/32.jpg",
@@ -580,6 +621,7 @@
         "Picture":"/json/hinhanh/sotay/41.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -594,6 +636,7 @@
         "Picture":"/json/hinhanh/sotay/42.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -608,6 +651,7 @@
         "Picture":"/json/hinhanh/sotay/43.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -622,6 +666,7 @@
         "Picture":"/json/hinhanh/sotay/44.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -636,6 +681,7 @@
         "Picture":"/json/hinhanh/sotay/45.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -650,6 +696,7 @@
         "Picture":"/json/hinhanh/sotay/46.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -664,6 +711,7 @@
         "Picture":"/json/hinhanh/sotay/47.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -678,6 +726,7 @@
         "Picture":"/json/hinhanh/sotay/48.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -692,6 +741,7 @@
         "Picture":"/json/hinhanh/sotay/49.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -706,6 +756,7 @@
         "Picture":"/json/hinhanh/sotay/50.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/41.jpg",
             "/json/hinhanh/sotay/42.jpg",
@@ -720,6 +771,7 @@
         "Picture":"/json/hinhanh/sotay/51.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/51.jpg",
             "/json/hinhanh/sotay/52.jpg",
@@ -734,6 +786,7 @@
         "Picture":"/json/hinhanh/sotay/52.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/51.jpg",
             "/json/hinhanh/sotay/52.jpg",
@@ -748,6 +801,7 @@
         "Picture":"/json/hinhanh/sotay/53.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/51.jpg",
             "/json/hinhanh/sotay/52.jpg",
@@ -762,6 +816,7 @@
         "Picture":"/json/hinhanh/sotay/54.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/sotay/51.jpg",
             "/json/hinhanh/sotay/52.jpg",
@@ -776,6 +831,7 @@
         "Picture":"/json/hinhanh/phukien/1.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/1.jpg",
             "/json/hinhanh/phukien/2.jpg",
@@ -790,6 +846,7 @@
         "Picture":"/json/hinhanh/phukien/2.png",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -804,6 +861,7 @@
         "Picture":"/json/hinhanh/phukien/3.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -818,6 +876,7 @@
         "Picture":"/json/hinhanh/phukien/4.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -832,6 +891,7 @@
         "Picture":"/json/hinhanh/phukien/5.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -846,6 +906,7 @@
         "Picture":"/json/hinhanh/phukien/6.jpg",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -860,6 +921,7 @@
         "Picture":"/json/hinhanh/phukien/7.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/6.jpg",
             "/json/hinhanh/phukien/7.jpg",
@@ -874,6 +936,7 @@
         "Picture":"/json/hinhanh/phukien/8.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/2.jpg",
             "/json/hinhanh/phukien/3.jpg",
@@ -888,6 +951,7 @@
         "Picture":"/json/hinhanh/phukien/9.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/10.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -902,6 +966,7 @@
         "Picture":"/json/hinhanh/phukien/11.jpg",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/11.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -916,6 +981,7 @@
         "Picture":"/json/hinhanh/phukien/12.jpg",
         "Price":99000,
         "banchay":1,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/11.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -930,6 +996,7 @@
         "Picture":"/json/hinhanh/phukien/13.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/11.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -944,6 +1011,7 @@
         "Picture":"/json/hinhanh/phukien/14.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/11.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -958,6 +1026,7 @@
         "Picture":"/json/hinhanh/phukien/15.jpg",
         "Price":99000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/phukien/11.jpg",
             "/json/hinhanh/phukien/13.jpg",
@@ -972,6 +1041,7 @@
         "Picture":"/json/hinhanh/combo/1.jpg",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -986,6 +1056,7 @@
         "Picture":"/json/hinhanh/combo/2.png",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1000,6 +1071,7 @@
         "Picture":"/json/hinhanh/combo/3.jpg",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1014,6 +1086,7 @@
         "Picture":"/json/hinhanh/combo/4.jpg",
         "Price":189000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1028,6 +1101,7 @@
         "Picture":"/json/hinhanh/combo/5.jpg",
         "Price":179000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/4.jpg",
@@ -1042,6 +1116,7 @@
         "Picture":"/json/hinhanh/combo/6.jpg",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1056,6 +1131,7 @@
         "Picture":"/json/hinhanh/combo/7.png",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1070,6 +1146,7 @@
         "Picture":"/json/hinhanh/combo/8.jpg",
         "Price":189000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1084,6 +1161,7 @@
         "Picture":"/json/hinhanh/combo/9.jpg",
         "Price":199000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/combo/1.jpg",
             "/json/hinhanh/combo/2.png",
@@ -1098,6 +1176,7 @@
         "Picture":"/json/hinhanh/gift/1.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1112,6 +1191,7 @@
         "Picture":"/json/hinhanh/gift/2.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1126,6 +1206,7 @@
         "Picture":"/json/hinhanh/gift/3.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1140,6 +1221,7 @@
         "Picture":"/json/hinhanh/gift/4.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1154,6 +1236,7 @@
         "Picture":"/json/hinhanh/gift/6.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1168,6 +1251,7 @@
         "Picture":"/json/hinhanh/gift/7.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1182,6 +1266,7 @@
         "Picture":"/json/hinhanh/gift/8.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1196,6 +1281,7 @@
         "Picture":"/json/hinhanh/gift/11.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1210,6 +1296,7 @@
         "Picture":"/json/hinhanh/gift/12.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/gift/1.jpg",
             "/json/hinhanh/gift/1.jpg",
@@ -1224,6 +1311,7 @@
         "Picture":"/json/hinhanh/planner/1.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",
@@ -1238,6 +1326,7 @@
         "Picture":"/json/hinhanh/planner/2.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",
@@ -1252,6 +1341,7 @@
         "Picture":"/json/hinhanh/planner/3.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",
@@ -1266,6 +1356,7 @@
         "Picture":"/json/hinhanh/planner/4.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",
@@ -1280,6 +1371,7 @@
         "Picture":"/json/hinhanh/planner/5.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",
@@ -1294,6 +1386,7 @@
         "Picture":"/json/hinhanh/planner/6.jpg",
         "Price":219000,
         "banchay":0,
+        "giohang":0,
         "photos": [
             "/json/hinhanh/planner/2.jpg",
             "/json/hinhanh/planner/3.jpg",

@@ -1,3 +1,9 @@
+:root{
+    --mainColor1: #f3c623;
+    --mainColor2: #095058;
+    --mainColor3: #f6eec7;
+    --mainColor4: #a4d4ae;
+}
 .wrap{
     width: 100%;
     text-align: center;
@@ -48,10 +54,11 @@ h2{
 }
 .boxItem .nameProduct{
     font-size: 14px;
+    color: var(--mainColor2);
 }
 .boxItem .priceProduct{
     font-size: 16px;
-    color: red;
+    color: var(--mainColor1);
 }
 .boxItem .linkProductDetail{
     text-decoration: none;
@@ -77,10 +84,13 @@ h2{
     }
     .boxItem .nameProduct{
         font-size: 14px;
+        color: var(--mainColor2);
+        margin-bottom: -5px;
     }
     .boxItem .priceProduct{
         font-size: 16px;
-        color: red;
+        color: var(--mainColor1);
+        
     }
     h2{
         font-size: 25px;

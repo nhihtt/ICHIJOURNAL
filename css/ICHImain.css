@@ -1,3 +1,9 @@
+:root{
+    --mainColor1: #f3c623;
+    --mainColor2: #095058;
+    --mainColor3: #f6eec7;
+    --mainColor4: #a4d4ae;
+}
 body{
     margin: 0;
 }
