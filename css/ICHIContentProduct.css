@@ -16,21 +16,17 @@ body
 .mainContainer{
     width: 100%;
     float: left;
-    height: 100vh;
-
+    height: auto;
 }
 .mainTop{
     width: 100%;
-    height: 15vh;
-     
+    height: auto;
     display: flex;
 }
 .mainLeftRight{
     width: 100%;
     background-color:var(--mainColor5);
     height: auto;
-    display:flex;
-   
 }
 
 /* End CSS Container */
@@ -90,7 +86,7 @@ body
 .mainRight{
     width: 75%;
     height: auto;
-    float:right;
+    float: right;
 }
 /* End mainLeftright */
 /* Start MainLeft */
@@ -190,8 +186,6 @@ body
 .item .drop_menu  #angle_down {
     display: block;
     cursor: pointer;
-
- 
 }
 .item .drop_menu .icon a{
     text-decoration: none;
@@ -233,43 +227,8 @@ body
      background-color: #b05555 ;}
 input{
     margin: 10px;
-} */
+} 
 /* end filter_box */
-
-/* Start mainRight */
- /* START CSS FOR LIST PRODUCT */
-.boxItem{
-    width: 25%;
-    height: 330px;
-    float: left;
-    text-align: center;
-}
-.boxItem .imgBox{
-    margin: 5% 5% 5% 5%;
-    width: 90%;
-    height: 230px;
-    border-radius: 10px;
-}
-.boxItem .imgBox .imgProduct{
-
-    width: 100%;
-    height: 100%;
-}
-.boxItem .nameProduct{
-    font-size: 14px;
-}
-.boxItem .priceProduct{
-    font-size: 16px;
-    color: red;
-}
-.boxItem .linkProductDetail{
-    text-decoration: none;
-}
-/* END CSS FOR LIST PRODUCT *
-
-
-
-/* End mainRight */
 
 /* start css menu_mobile */
 .mainCateFil_mob .mainCategory_title{
@@ -337,22 +296,21 @@ input{
     right: 1rem;}
 /* end css menu_mobile */
 /* START CSS FOR LIST PRODUCT */
-.boxItem{
+.mainRight .boxItem{
     width: 25%;
-    height: 330px;
+    height: 310px;
     float: left;
     text-align: center;
 }
 .boxItem .imgBox{
-    margin: 5% 5% 5% 5%;
+    margin-left: 5%;
     width: 90%;
-    height: 230px;
+    height: 220px;
     border-radius: 10px;
 }
 .boxItem .imgBox .imgProduct{
-
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 200px;
 }
 .boxItem .nameProduct{
     font-size: 14px;
@@ -388,10 +346,12 @@ input{
     margin-top: 20px;
     font-weight: bold;
 }
+
+
 @media(max-width: 1200px)
 {
     .mainTop{
-        height: 10vh;
+        height: 150px;
     }
     
     .mainTop #iconbar{
@@ -406,7 +366,6 @@ input{
         padding: 10px;
     }
    
-    /* START CSS FOR LIST PRODUCT */
     .main_barmenu{
         display: block;
     }
@@ -424,9 +383,6 @@ input{
     .menu_mobile{
         display:block;
     }
-   
-    
-    
     label{
         font-size: 13px;
         font-weight: bold;
@@ -462,38 +418,28 @@ input{
         margin-right: 20%;
         
     }
-    /* .overlay{
-        display:block;
-    } */
-    /* START CSS FOR LIST PRODUCT */
+    /* START RESPONSIVE FOR LIST PRODUCT */
     .boxItem{
-        width: 30%;
-        height: 290px;
-        float: left;
-        text-align: center;
+        width: 18%;
+        height: 270px;
+        margin:0
     }
     .boxItem .imgBox{
-        margin: 5% 5% 5% 5%;
+        margin: 0;
         width: 90%;
-        height: 200px;
-        border-radius: 10px;
+        height: 180px;
     }
     .boxItem .imgBox .imgProduct{
-
-        width: 100%;
-        height: 100%;
+        height: 180px;
     }
     .boxItem .nameProduct{
         font-size: 13px;
     }
     .boxItem .priceProduct{
         font-size: 15px;
-        color: red;
     }
-    .boxItem .linkProductDetail{
-        text-decoration: none;
-    }
-    /* END CSS FOR LIST PRODUCT */
+    /* END RESPINSVE FOR LIST PRODUCT */
+    
 
 }
 @media(max-width: 1100px)
@@ -517,8 +463,9 @@ input{
     .filter_boxitem{
         padding: 8px
     }
+    
 }
-    /* END CSS FOR LIST PRODUCT */
+    
 
 
     @media(max-width: 770px)
@@ -548,8 +495,15 @@ input{
         padding: 5px;
     }
     }
+    
     @media(max-width: 540px)
     {
+        .mainRight{
+            height: auto;
+        }
+        .mainTop{
+            height: 80px;
+        }
         .category_boxitem{
             padding: 15px;
         }
@@ -625,6 +579,27 @@ input{
         top: 0.3rem;
         right: 0.5rem;
     }
+    /* START RESPONSIVE FOR LIST PRODUCT */
+    .mainRight .boxItem{
+        width: 50%;
+        height: 220px;
+        margin:0;
+    }
+    .boxItem .imgBox{
+        margin: 0;
+        width: 90%;
+        height: 150px;
+    }
+    .boxItem .imgBox .imgProduct{
+        height: 140px;
+    }
+    .boxItem .nameProduct{
+        font-size: 11px;
+    }
+    .boxItem .priceProduct{
+        font-size: 13px;
+    }
+    /* END RESPINSVE FOR LIST PRODUCT */
     @media(max-width: 415px)
     {
         .mainTop .main_boxmenu {
