@@ -42,6 +42,7 @@ form {
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
+	height: 400px;
 }
 
 .form-container {
@@ -217,6 +218,16 @@ button.ghost {
 	border-color:var(--mainColor2);
 }
 /* end css overlay */
+
+@media(max-width: 500px)
+{
+	#container {
+	
+		height: 800px;
+	}
+}
+
+
 @keyframes show {
 	0%, 49.99% {
 		opacity: 0;
