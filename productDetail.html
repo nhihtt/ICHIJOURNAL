@@ -34,6 +34,7 @@
                 });
             return vars;
         }
+        var id=unescape(getUrlVars()["id"]);
         var app= angular.module("contentApp", [])
         app.controller('detailProduct', function ($scope, $http) {
         $http({
@@ -69,7 +70,10 @@
                 var output=[]
                 angular.forEach(input,function(item){
                     if(item.category==category){
-                        output.push(item)
+                        if(item.id<id){
+                            output.push(item)
+                        }
+                        
                     }
                 })
                 return output
