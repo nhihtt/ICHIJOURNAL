@@ -17,8 +17,8 @@
             imagePlaceholder.src = src;
             lightbox.style.display = 'block';
         }
-        var closeLightboxButton = document.getElementById('close-icon');
-        closeLightboxButton.onclick = function() { 
+        
+        function closeImg(){
             document.getElementById('lightbox').style.display = 'none';
         }
     </script>
@@ -65,7 +65,7 @@
                     <div class="line"></div>
                     <div class="listImg" ng-repeat="idea in ideas|filterCategory:'plan'">
                         <div class="storeImg">
-                            <img src="{{idea.picture}}" alt="" onclick="zoomImg(idea.picture)">
+                            <img src="{{idea.picture}}" alt="" onclick="zoomImg(this.src)">
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     <div class="line"></div>
                     <div class="listImg" ng-repeat="idea in ideas|filterCategory:'habit'">
                         <div class="storeImg">
-                            <img src="{{idea.picture}}" alt="">
+                            <img src="{{idea.picture}}" alt="" onclick="zoomImg(this.src)">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                     <div class="line"></div>
                     <div class="listImg" ng-repeat="idea in ideas|filterCategory:'expense'">
                         <div class="storeImg">
-                            <img src="{{idea.picture}}" alt="">
+                            <img src="{{idea.picture}}" alt="" onclick="zoomImg(this.src)">
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="line"></div>
                     <div class="listImg" ng-repeat="idea in ideas|filterCategory:'mood'">
                         <div class="storeImg">
-                            <img src="{{idea.picture}}" alt="">
+                            <img src="{{idea.picture}}" alt="" onclick="zoomImg(this.src)">
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
         </div>
         <!-- LIGHTBOX -->
         <div id="lightbox">
-            <span id="close-icon">&times;</span>
+            <span id="close-icon" onclick="closeImg()">&times;</span>
             <img id="image-placeholder" src="">
           </div>
         <!-- FOOTER -->

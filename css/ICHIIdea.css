@@ -87,8 +87,12 @@ iframe{
     left: 0;
     width: 100%;
     height: 100%;
-    padding-top: 100px; 
     background-color: rgba(0,0,0,0.8); 
+}
+#lightbox img{
+    height: 80% ;
+    width: 600px;
+    margin-top: 5%;
 }
 #image-placeholder {
     margin: auto;
@@ -97,8 +101,8 @@ iframe{
 }
 #close-icon {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 20px;
+    right: 390px;
     color: #f1f1f1;
     font-size: 50px;
 }
@@ -114,6 +118,18 @@ iframe{
         height: 26px;
         width: 320px;
     }
+    #lightbox img{
+        height: 55% ;
+        width: 600px;
+    }
+    #image-placeholder {
+        width: 70%;
+    }
+    #close-icon {
+        top: 10px;
+        right: 50px; 
+    }
+    
 }
 @media(max-width: 500px)
 {
@@ -126,6 +142,19 @@ iframe{
     .content .line{
         height: 24px;
         width: 310px;
+    }
+    #lightbox img{
+        height: 50% ;
+        width: 340px;
+        padding-right: 10px;
+        padding-top: 15%;
+    }
+    #image-placeholder {
+        width: 40%;
+    }
+    #close-icon {
+        top: 16px;
+        right: 50%; 
     }
 
 }
