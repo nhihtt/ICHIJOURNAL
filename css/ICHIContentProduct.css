@@ -105,6 +105,11 @@ body
     height: auto;
 }
 /* End mainLeft */
+/* END CSS MAIN RIGHT */
+.mainRight iframe{
+    width: 100%;
+}
+/* START CSS MAIN RIGHT */
 /* Start mainCategory */
 .category_title{
     /* position: relative; */
@@ -295,45 +300,7 @@ input{
     top:1rem;
     right: 1rem;}
 /* end css menu_mobile */
-/* START CSS FOR LIST PRODUCT */
-.mainRight .boxItem{
-    width: 25%;
-    height: 310px;
-    float: left;
-    text-align: center;
-}
-.boxItem .gio{
-    position: absolute;
-    margin-left: 15%;
-    margin-top: 10px;
-    z-index: 100;
-    color: var(--mainColor2);
-    font-size: 18px;
-}
-.boxItem .imgBox{
-    margin-left: 5%;
-    width: 90%;
-    height: 220px;
-    border-radius: 10px;
-}
-.boxItem .imgBox .imgProduct{
-    width: 90%;
-    height: 200px;
-}
-.boxItem .nameProduct{
-    font-size: 14px;
-    color: var(--mainColor2);
-    font-weight: bold;
 
-}
-.boxItem .priceProduct{
-    font-size: 16px;
-    color: var(--mainColor1);
-}
-.boxItem .linkProductDetail{
-    text-decoration: none;
-}
-/* END CSS FOR LIST PRODUCT */
 .input_mobile_mob:checked ~ .overlay{
     display:block;
 }
@@ -426,32 +393,7 @@ input{
         margin-right: 20%;
         
     }
-    /* START RESPONSIVE FOR LIST PRODUCT */
-    .boxItem{
-        width: 18%;
-        height: 270px;
-        margin:0
-    }
-    .boxItem .gio{
-        margin-left: 18%;
-        margin-top: 8px;
-        font-size: 17px;
-    }
-    .boxItem .imgBox{
-        margin: 0;
-        width: 90%;
-        height: 180px;
-    }
-    .boxItem .imgBox .imgProduct{
-        height: 180px;
-    }
-    .boxItem .nameProduct{
-        font-size: 13px;
-    }
-    .boxItem .priceProduct{
-        font-size: 15px;
-    }
-    /* END RESPINSVE FOR LIST PRODUCT */
+    
     
 
 }
@@ -592,32 +534,7 @@ input{
         top: 0.3rem;
         right: 0.5rem;
     }
-    /* START RESPONSIVE FOR LIST PRODUCT */
-    .mainRight .boxItem{
-        width: 50%;
-        height: 220px;
-        margin:0;
-    }
-    .boxItem .gio{
-        margin-left: 35%;
-        margin-top: 6px;
-        font-size: 15px;
-    }
-    .boxItem .imgBox{
-        margin: 0;
-        width: 90%;
-        height: 150px;
-    }
-    .boxItem .imgBox .imgProduct{
-        height: 140px;
-    }
-    .boxItem .nameProduct{
-        font-size: 11px;
-    }
-    .boxItem .priceProduct{
-        font-size: 13px;
-    }
-    /* END RESPINSVE FOR LIST PRODUCT */
+    
     @media(max-width: 415px)
     {
         .mainTop .main_boxmenu {

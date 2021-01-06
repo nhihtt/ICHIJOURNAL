@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/angular.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/ICHIProduct_List.css">
+    <script>
+        var category="Sổ"
+        var app= angular.module("productApp", [])
+        app.controller('productController', function ($scope, $http) {
+            $http({
+                method:"GET",
+                url:"/json/product.json"
+            }) .then(function mySucces(respone){
+                $scope.products=respone.data
+                $scope.category=function(ct){
+                    category=ct
+                }
+            })
+        })
+        app.filter('filterCategory',function(){
+            return function(input){
+            var output=[]
+            angular.forEach(input,function(item){
+                if(item.category==category){
+                    output.push(item)
+                }
+            })
+            return output
+            }
+        })
+    </script>
+    
+</head>
+<body>
+    <div class="container" ng-app="productApp" ng-controller="productController">
+        <div class="boxItem" ng-repeat="pd in products|limitTo:20|filterCategory">
+            <div class="gio" >
+                <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
+            </div>
+            <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank">
+                <div class="imgBox">
+                    <img class="imgProduct" src="{{pd.Picture}}" alt="">
+                </div>
+                <div class="nameProduct">{{pd.name}}</div><br>
+                <div class="priceProduct">{{pd.Price}} VNĐ</div>
+            </a>   
+        </div>
+    </div>
+</body>
+</html>

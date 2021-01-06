@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
     <link rel="stylesheet" href="/css/ICHIContentProduct.css">
     <script src="/js/angular.min.js"></script>
-
     <script>
         
         var dp=0
@@ -25,31 +24,11 @@
                 dp=0
             }   
         }
-        var app= angular.module("productApp", [])
-        app.controller('productController', function ($scope, $http) {
-            $http({
-                method:"GET",
-                url:"/json/product.json"
-            }) .then(function mySucces(respone){
-                $scope.products=respone.data
-                $scope.category=function(ct){
-                    category=ct
-                }
-            })
-        })
-        app.filter('filterCategory',function(){
-            return function(input){
-            var output=[]
-            angular.forEach(input,function(item){
-                if(item.category==category){
-                    output.push(item)
-                }
-            })
-            return output
-            }
-        })
-        
-       
+    </script>
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
     </script>
 </head>
 <body>
@@ -366,19 +345,8 @@
                 </div>
 
             </div>
-            <div class="mainRight" ng-app="productApp" ng-controller="productController">
-                <div class="boxItem" ng-repeat="pd in products|limitTo:20|filterCategory">
-                    <div class="gio" >
-                        <i class="fas fa-shopping-cart addedToCart" onclick="hienPopup()"></i>
-                    </div>
-                    <a class="linkProductDetail" href="productDetail.html?id={{pd.id}}" target="_blank">
-                        <div class="imgBox">
-                            <img class="imgProduct" src="{{pd.Picture}}" alt="">
-                        </div>
-                        <div class="nameProduct">{{pd.name}}</div><br>
-                        <div class="priceProduct">{{pd.Price}} VNĐ</div>
-                    </a>   
-                </div>
+            <div class="mainRight">
+                <iframe src="ICHIProduct_List.html" frameborder="0" scrolling='no' onload="resizeIframe(this)"></iframe>
             </div>
         </div>
     </div>
