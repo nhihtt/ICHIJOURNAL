@@ -12,14 +12,26 @@
     --mainColor5: #e7e7de;
 }
 body {
-	background: var(--mainColor4);
+	/* background: var(--mainColor4); */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
+	/* height: 100vh; */
 	margin: -20px 0 50px;
+}
+.header{
+	width: 90%;
+	float: left;
+	
+}
+.footer{
+	width: 100%;
+	float: left;
+}
+iframe{
+	width: 100%;
 }
 form {
 	background-color: #FFFFFF;
@@ -43,6 +55,7 @@ form {
 	max-width: 100%;
 	min-height: 480px;
 	height: 400px;
+	float: left;
 }
 
 .form-container {
