@@ -251,7 +251,10 @@ body{
         margin-bottom: 15px;
     }
     #bold{
-        font-size: 15px;
+        font-size: 14px;
+    }
+    #login{
+        font-size: 13px;
     }
     #right{
         width: 45%;
@@ -339,6 +342,9 @@ body{
       margin-bottom: 10px;
       position: absolute;
       top: 425px;
+  }
+  #thongtin #bold{
+      font-size: 13px;
   }
     #thongtin label{
       font-size: 15px;
