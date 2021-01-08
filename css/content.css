@@ -360,4 +360,39 @@ margin-bottom: 10px;
     h2{
         font-size: 18px;
     }
+    #popup{
+        margin-left: 2%;
+        width: 94%;
+        top: 650px;
+        left: 3px;
+        height: auto;
+        transform: translate(0%, 0%);
+    }
+    #pop_title{
+        font-size: 15px;
+    }
+    #total_left{
+        width: 100%;
+        font-size: 13px;
+    }
+    #total_right{
+        width: 100%;
+        font-size: 13px;
+        text-align: left;
+    }
+    #pop_total{
+        height: 60px;
+
+    }
+    #btn-giohang{
+        width: 100%;
+    }
+    
+    #btn-thanhtoan{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #pop_btn{
+        height: 100px;
+    } 
 }
