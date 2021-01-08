@@ -202,9 +202,6 @@ p {
 	margin: 20px 0 30px;
 	color: var(--mainColor2);
 }
-
-
-
 button {
 	border-radius: 10px;
 	border: 1px solid var(--mainColor1);
@@ -237,18 +234,5 @@ button.ghost {
 	#container {
 	
 		height: 800px;
-	}
-}
-
-
-@keyframes show {
-	0%, 49.99% {
-		opacity: 0;
-		z-index: 1;
-	}
-	
-	50%, 100% {
-		opacity: 1;
-		z-index: 5;
 	}
 }
